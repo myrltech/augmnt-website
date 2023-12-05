@@ -34,19 +34,24 @@ const techAgenciesArray = [
     title: "Verified",
     icon: "imgs/mobile/icons/green-shield-icon.png",
     iconClass: "mobile-green-shield-icon",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    // para: "We've manually verified our 500+ Tech Agency partners and have onboarded only The Best Agencies.",
+    para: "We manually verify and onboard tech agency partners on our platform.",
   },
   {
     title: "Vetted",
     icon: "imgs/mobile/icons/orange-arrow-icon.png",
     iconClass: "mobile-orange-arrow-icon",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    // para: "Only agencies with a consistent and proven track record make it to our platform.",
+    para: "Skilled engineers with years of real world experience work at our agency partner firms.",
   },
   {
     title: "Trusted",
     icon: "imgs/mobile/icons/red-star-icon.png",
     iconClass: "mobile-red-star-icon",
-    para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+    para: "Our tech agency partners are deeply trusted by some of the largest enterprise firms and SAAS companies.",
   },
 ];
 
@@ -97,22 +102,26 @@ export default function MobileHomeFoldOne() {
  =====================================================*/
   return (
     <>
-      <h2 className="text-center ">
+      <h2 className="text-center">
         <img
-          src="/imgs/mobile/home/home-title-text.svg"
+          src={"imgs/desktop/home/home-img.svg"}
+          // src="/imgs/mobile/home/home-title-text.svg"
           alt="THE ULTIMATE SOLUTION FOR RESOURCE AUGMENTATION"
           className="home-title-text"
         />
       </h2>
       <p className="mobile-font-14-nunito-sans-800 text-center mobile-home-fold-para-text">
-        Freelancers drop the ball at the slightest hint of
+        {/* Freelancers drop the ball at the slightest hint of
         <br /> a challenge.
       </p>
       <p className="mobile-home-fold-para-text-2 mobile-font-12-nunito-sans-400 text-center">
         Use Our platform to connect with vetted, verified and
         <br /> top performing tech consultancies and agencies across
         <br /> the globe to augment your team for those cutting edge
-        <br /> tech requirements.
+        <br /> tech requirements. */}
+        With AUGMNT, you can hire engineers that are already working at top tech
+        agencies and consultancies. It’s <b> 100% </b>Free for SAAS companies.
+        Just drop in your requirements and our partners will reach out to you.
       </p>
       <div className="text-center">
         <a

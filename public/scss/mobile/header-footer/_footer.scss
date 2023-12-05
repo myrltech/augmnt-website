@@ -5,7 +5,6 @@
 }
 .m-footer-companies {
   padding-right: mvw(20px);
-  padding-top: mvw(12px);
 }
 .web-footer-augmnt-white-logo {
   width: mvw(85px);
@@ -52,9 +51,8 @@
   padding-right: mvwDivide(33px);
 }
 .footer-inc-logo {
-  width: mvw(34px);
+  width: mvw(25px);
   height: auto;
-  margin-top: mvw(16px);
 }
 .footer-onevest-logo {
   width: mvw(41px);
@@ -62,22 +60,19 @@
   margin-left: mvw(11px);
 }
 .footer-chicago-tribune-logo {
-  width: mvw(74px);
+  width: mvw(58px);
   height: auto;
-  margin-top: mvw(16px);
   margin-left: mvw(11px);
 }
 .footer-fast-company {
-  width: mvw(74px);
+  width: mvw(57px);
   height: auto;
-  margin-right: mvw(27px);
-  margin-top: mvw(16px);
+  margin-left: mvw(14px);
 }
 .footer-entrepreneur-logo {
-  width: mvw(91px);
+  width: mvw(59px);
   height: auto;
-  margin-top: mvw(16px);
-  margin-right: mvw(5px);
+  margin-left: mvw(5px);
 }
 .web-footer-as-seen-text {
   color: $theme-text-white-87;
@@ -125,6 +120,7 @@
   border-bottom: mvwDivide(1px) solid $theme-border-white;
 }
 .m-footer-social-media {
-  margin-bottom: mvw(53px);
-  margin-right: mvw(30px);
+  padding-top: mvw(69px);
+  justify-content: center;
+  margin-bottom: mvw(24px);
 }

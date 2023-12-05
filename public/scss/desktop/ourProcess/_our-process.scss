@@ -1,0 +1,221 @@
+.our-process-main-bg {
+  background: url("../../../imgs/desktop/our-process/our-process-bg-1.svg");
+  background-size: 67%;
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  // background-position-y: 25%;
+  background-position-y: 22%;
+}
+// fold 1
+.our-process-fold-title-text-1 {
+  color: rgba(54, 54, 54, 0.43);
+  @include letter-spacing-06;
+}
+
+.our-process-fold1-row {
+  padding: vw(92px) vw(91px) vw(68px) vw(72px);
+}
+.our-process-fold1-row__colm1 {
+  width: vw(577px);
+
+  margin-right: vw(70px);
+}
+.our-process-fold1-row__colm2 {
+  width: vw(497px);
+  height: vw(320px);
+  border-radius: vw(10px);
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+}
+// usual way
+.our-process-usual-way-main-block {
+  background-color: rgba(255, 255, 255, 0.21);
+  padding: vw(63px) vw(75px) 0 vw(72px);
+  position: relative;
+
+  &::before {
+    content: "";
+    width: vw(1px);
+    height: vw(442px);
+    background-color: #ffffff;
+    position: absolute;
+    left: vw(640px);
+    top: vw(222px);
+  }
+
+  &::after {
+    content: "";
+    width: 94%;
+    height: vw(1px);
+    background-color: #ffffff;
+    position: absolute;
+    top: vw(425px);
+    // top: vw(444px);
+    left: 3%;
+  }
+}
+.our-process-usual-way-main-block__title {
+  margin-bottom: vw(90px);
+  text-align: center;
+}
+.our-process-usual-way-main-block-row__colm {
+  width: vw(480px);
+  // margin-bottom: vw(122px);
+  margin-bottom: vw(100px);
+}
+.our-process-usual-way-main-block-row__colm-title {
+  color: #000000;
+  margin-bottom: vw(24px);
+  width: 100%;
+
+  sup {
+    top: vw(-28px);
+    float: right;
+    color: rgba(54, 54, 54, 0.43);
+  }
+}
+.our-process-usual-way-main-block-row__colm-desc {
+  color: #363636;
+}
+
+// why augment
+.our-process-why-augment-main {
+  padding: vw(74px) vw(74px) vw(45px) vw(74px);
+}
+.our-process-why-augment-main__title {
+  margin-bottom: vw(75px);
+}
+.our-process-why-augment-card__title-block {
+  // width: vw(437px);
+  // height: vw(324px);
+  width: vw(337px);
+  height: vw(224px);
+  background: rgba(255, 255, 255, 0.58);
+  border-radius: vw(11px);
+  position: relative;
+  background-image: url("../../../imgs/desktop/our-process/why-augment-tabs-card-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: vw(101px);
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: "";
+    width: vw(3px);
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: vw(19px);
+    background: #ff4509;
+    box-shadow: vw(-13px) vw(4px) vw(21px) rgba(255, 69, 9, 0.54);
+    border-radius: vw(18px);
+  }
+
+  h3 {
+    padding-left: vw(55px);
+    padding-right: vw(18px);
+  }
+}
+
+.our-process-why-augment-card {
+  position: relative;
+  width: 100%;
+  height: vw(156px);
+  // height: vw(256px);
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: vw(11px);
+  // margin-top: vw(45px);
+  // margin-bottom: vw(45px);
+  margin-top: vw(105px);
+  margin-bottom: vw(105px);
+}
+
+.our-process-why-augment-card__imgBlock {
+  width: vw(65px);
+  height: vw(65px);
+  border-radius: vw(59px);
+  background: rgba(255, 69, 9, 0.59);
+  position: absolute;
+  right: vw(42px);
+  padding: vw(16px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: vw(-30px);
+
+  img {
+    width: vw(30px);
+    height: auto;
+  }
+}
+
+.our-process-why-augment-card__desc {
+  color: #000000;
+  word-break: break-all;
+  width: vw(480px);
+}
+
+// how it works
+.our-process-how-it-works-main {
+  padding: vw(34px) vw(106px) vw(27px) vw(181px);
+  position: relative;
+}
+.our-process-how-it-works-figure {
+  position: absolute;
+  left: vw(510px);
+  top: vw(169px);
+
+  img {
+    width: vw(358px);
+    height: auto;
+  }
+}
+.our-process-how-it-works-main__title {
+  color: #363636;
+  margin-bottom: vw(24px);
+  text-align: center;
+}
+.our-process-how-it-works-main__desc {
+  color: rgba(0, 0, 0, 0.25);
+  margin-bottom: vw(20px);
+}
+.our-process-how-it-works-main__text1 {
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: vw(2px);
+}
+.our-process-how-it-works-main__text2 {
+  color: rgba(36, 45, 62, 0.48);
+  margin-bottom: vw(10px);
+}
+.our-process-how-it-works-main__text3 {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.our-process-how-it-works-main__block1,
+.our-process-how-it-works-main__block2 {
+  padding-top: vw(50px);
+}
+
+.our-process-how-it-works-main__block3 {
+  padding-top: vw(30px);
+}
+
+.our-process-how-it-works-main__block1,
+.our-process-how-it-works-main__block4 {
+  text-align: right;
+  width: vw(277px);
+  margin-right: vw(425px);
+  margin-bottom: vw(76px);
+}
+.our-process-how-it-works-main__block2,
+.our-process-how-it-works-main__block3 {
+  text-align: left;
+  width: vw(277px);
+  margin-bottom: vw(76px);
+}

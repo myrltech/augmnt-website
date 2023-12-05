@@ -9,15 +9,24 @@
 @media screen and (min-width: 768px) {
   @import "../public/scss/desktop/home/index";
   @import "../public/scss/desktop/header-footer/index";
+  @import "../public/scss/desktop/contact-us/index";
   @import "../public/scss/desktop/common/index";
+  @import "../public/scss/desktop/ourProcess/index";
+  @import "../public/scss/desktop/blog/index";
+  @import "../public/scss/desktop/blog-detail/index";
+  @import "../public/scss/desktop/listings/index";
+  @import "../public/scss/desktop/need-developers/index";
+  @import "../public/scss/desktop/forget-password/index";
   @import "../public/scss/desktop/home-new/home";
-  @import "../public/scss/desktop/listings/listing";
 }
 //-- mobile scss files --//
 @media screen and (max-width: 767px) {
   @import "../public/scss/mobile/home/index";
   @import "../public/scss/mobile/common/index";
   @import "../public/scss/mobile/header-footer/index";
-  @import "../public/scss/mobile/home-new/home-new";
-  @import "../public/scss/mobile/listing/listing";
+  @import "../public/scss/mobile/listings/index";
+  @import "../public/scss/mobile/blog/index";
+  @import "../public/scss/mobile/blog-detail/index";
+  @import "../public/scss/mobile/ourProcess/index";
+  @import "../public/scss/mobile/forget-password/index";
 }

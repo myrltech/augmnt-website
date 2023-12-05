@@ -1,0 +1,102 @@
+/*=============================
+          input
+==============================*/
+.contact-us-input-section {
+  width: vw(548px);
+  height: auto;
+  border-bottom: vw(1px) solid $theme-border-grey;
+
+  input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    padding: 0 vw(18px) vw(11px) vw(18px);
+    font-size: vw(16px);
+    line-height: vw(26px);
+    letter-spacing: vw(0.5px);
+    color: $theme-text-gray;
+    @include fontInterRegular400;
+
+    &::placeholder {
+      color: $theme-text-gray-2;
+    }
+  }
+}
+.contact-us-form-section {
+  padding-left: vw(72px);
+  padding-top: vw(40px);
+}
+.contact-us-para {
+  letter-spacing: vw(0.3px);
+  color: $theme-text-gray-3;
+}
+.contact-us-title {
+  color: $theme-text-black-87;
+}
+.contact-us-form-btn {
+  margin-top: vw(55px);
+  width: vw(547px);
+  height: vw(54px);
+  line-height: vw(54px);
+  font-size: vw(14px);
+  line-height: vw(22px);
+  letter-spacing: vw(0.5px);
+  text-transform: uppercase;
+  background: $theme-orange-bg;
+  border: none;
+  color: $theme-text-white;
+  @include fontInterMedium500;
+}
+.contact-us-error-msg {
+  font-size: vw(10px);
+  line-height: vw(16px);
+  letter-spacing: vw(0.5px);
+  color: $theme-text-red;
+  @include fontInterRegular400;
+  padding-top: vw(10px);
+}
+/*============================================================================
+                                    details
+=============================================================================*/
+.conatct-us-details-section {
+  padding-left: vw(180px);
+  padding-top: vw(128px);
+}
+.contact-us-details-subtitle,
+.contact-us-details-title {
+  letter-spacing: vw(0.5px);
+  color: $theme-text-gray;
+}
+.contact-us-newsletter-input-section {
+  .contact-us-input-section {
+    width: vw(262px);
+    height: auto;
+  }
+}
+.contact-us-details-btn {
+  width: vw(71px);
+  height: vw(50px);
+  border: none;
+  background: $theme-orange-bg;
+  color: $theme-text-white;
+  margin-left: vw(24px);
+
+  .fa {
+    font-size: vw(20px);
+  }
+}
+.contact-us-uk-flag {
+  width: vw(23px);
+  height: auto;
+  margin-right: vw(8px);
+}
+
+.contact-us-us-flag {
+  width: vw(23px);
+  height: auto;
+  margin-right: vw(8px);
+}
+.contact-us-main-section {
+  padding-bottom: vw(500px);
+}

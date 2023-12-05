@@ -1,0 +1,149 @@
+.listings-main-card-btn {
+  width: vw1(202px);
+  height: vw1(61px);
+  line-height: vw1(60px);
+  @include theme-mixin-orange-btn-vw1;
+  @include fontBold700;
+  display: inline-block;
+  text-align: center;
+}
+.listings-login-btn {
+  width: vw1(249px);
+  height: vw1(61px);
+  @include theme-mixin-orange-btn-vw1;
+  font-size: vw1(24px);
+  line-height: vw1(43px);
+  @include fontBold700;
+  display: inline-block;
+  margin-bottom: vw1(23px);
+}
+.listings-main-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: vw1(4px);
+  padding: vw1(23px) vw1(30px);
+  margin-bottom: vw1(15px);
+}
+
+.listings-main-card__row1__colm1__text1 {
+  font-size: vw1(18px);
+  line-height: vw1(27px);
+  color: #18181b;
+  margin-bottom: vw1(14px);
+
+  span {
+    filter: blur(3px);
+  }
+
+  img {
+    margin-left: vw1(16px);
+    width: vw1(17px) !important;
+  }
+}
+.listings-main-card__row1__colm1-textBlock {
+  p {
+    white-space: nowrap;
+    color: #4f4f4f;
+    margin-right: vw1(14px);
+    margin-bottom: vw1(15px);
+    font-size: vw1(13px);
+    line-height: vw1(18px);
+    margin-right: vw1(25px);
+
+    img {
+      vertical-align: baseline;
+      width: vw1(10px);
+      margin-right: vw1(6px);
+    }
+
+    .listings-main-card__row1__colm1-img3 {
+      width: vw1(14px);
+    }
+    .listings-main-card__row1__colm1-img4 {
+      width: vw1(14px);
+    }
+  }
+}
+.listings-main-card__row1__colm2-title {
+  font-size: vw1(36px);
+  line-height: vw1(49px);
+  color: #363636;
+}
+.listings-card-hr {
+  height: vw1(3px) !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 0 !important;
+  margin-bottom: vw1(16px) !important;
+}
+.listings-main-card__row1__colm2-desc {
+  font-size: vw1(14px);
+  line-height: vw1(19px);
+  color: #4f4f4f;
+  margin-right: vw1(10px);
+  margin-left: vw1(10px);
+}
+.listings-main-card__teams-title {
+  font-size: vw1(14px);
+  line-height: vw1(21px);
+  text-transform: uppercase;
+  color: #130f26;
+  @include fontExtraBold800;
+  margin-bottom: vw1(18px);
+}
+.listings-main-card__teams-text1 {
+  font-size: vw1(14px);
+  line-height: vw1(19px);
+  @include fontOpenSans600;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+  margin-right: vw1(17px);
+}
+.listings-main-card__teams-count-block {
+  background: #fde068;
+  border-radius: vw1(10px);
+  width: max-content;
+  padding: vw1(6px) vw1(10px) vw1(5px) vw1(11px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: vw1(18px);
+    line-height: vw1(25px);
+    @include fontOpenSans700;
+    display: inline-block;
+    color: #130f26;
+  }
+}
+.listings-main-card__team-member-block {
+  margin-right: vw1(14px);
+
+  img:nth-child(1) {
+    margin-left: 0;
+  }
+  img {
+    width: auto;
+    height: vw1(39px);
+    margin-left: vw1(-16px);
+  }
+}
+.listings-main-card__teamBlock {
+  margin-bottom: vw1(24px);
+}
+.listings-main-card__team-row {
+  .listings-main-card__teamBlock:nth-child(2n + 1)
+    .listings-main-card__teams-count-block {
+    background: #fde068;
+  }
+  .listings-main-card__teamBlock:nth-child(2n)
+    .listings-main-card__teams-count-block {
+    background: #ffa50e;
+  }
+  .listings-main-card__teamBlock:nth-child(3n)
+    .listings-main-card__teams-count-block {
+    background: #f4bd62;
+  }
+}
+.listings-main-card__row1,
+.listings-main-card__row2 {
+  padding-left: vw1(33px);
+}

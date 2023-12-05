@@ -114,13 +114,6 @@
   @include fontBold700;
   margin-bottom: 0;
 }
-
-.font-30-nunito-sans-700 {
-  font-size: vw(30px);
-  line-height: vw(54px);
-  @include fontRegular400;
-  margin-bottom: 0;
-}
 // 800
 .font-20-nunito-sans-800 {
   font-size: vw(20px);
@@ -165,9 +158,21 @@
   @include fontBlack900;
   margin-bottom: 0;
 }
+.font-40-nunito-sans-400 {
+  font-size: vw1(40px);
+  line-height: vw1(48px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
 /*=====================================
            poiretOne
 ======================================*/
+.font-18-poiret-one-400 {
+  font-size: vw(18px);
+  line-height: vw(27px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
 .font-24-poiret-one-400 {
   font-size: vw(24px);
   line-height: vw(28px);
@@ -183,6 +188,12 @@
 .font-36-poiret-one-400 {
   font-size: vw(36px);
   line-height: vw(42px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-40-poiret-one-400 {
+  font-size: vw(40px);
+  line-height: vw(45px);
   margin-bottom: 0;
   @include fontPoiretOne400;
 }
@@ -243,14 +254,14 @@
   @include fontProximaRegular;
 }
 .font-18-proxima-nova-400 {
-  font-size: vw1(18px);
-  line-height: vw1(27px);
+  font-size: vw(18px);
+  line-height: vw(27px);
   margin-bottom: 0;
   @include fontProximaRegular;
 }
 .font-24-proxima-nova-400 {
-  font-size: vw1(24px);
-  line-height: vw1(29px);
+  font-size: vw(24px);
+  line-height: vw(29px);
   margin-bottom: 0;
   @include fontProximaRegular;
 }
@@ -281,8 +292,8 @@
   @include fontProximaBold;
 }
 .font-24-proxima-nova-700 {
-  font-size: vw1(24px);
-  line-height: vw1(29px);
+  font-size: vw(24px);
+  line-height: vw(29px);
   margin-bottom: 0;
   @include fontProximaBold;
 }
@@ -336,17 +347,11 @@
   margin-bottom: 0;
   @include fontProximaExtraBold;
 }
-.font-128-proxima-nova-800 {
-  font-size: vw1(128px);
-  line-height: vw1(153px);
-  margin-bottom: 0;
-  @include fontProximaExtraBold;
-}
 
 // 900
 .font-24-proxima-nova-900 {
-  font-size: vw1(24px);
-  line-height: vw1(28px);
+  font-size: vw(24px);
+  line-height: vw(28px);
   margin-bottom: 0;
   @include fontProximaBlack;
 }
@@ -396,100 +401,4 @@
   margin-bottom: 0;
   font-weight: 600;
   font-family: "Segoe UI", $font-fallback-1, $font-fallback-2;
-}
-///Pacifico
-.font-63-pacifico-normal {
-  font-size: vw1(63px);
-  line-height: vw1(153px);
-  @include fontpacifico;
-  margin-bottom: 0;
-}
-.font-128-pacifico-normal {
-  font-size: vw1(128px);
-  // line-height: vw1(153px);
-  line-height: vw1(128px);
-  @include fontpacifico;
-  margin-bottom: 0;
-}
-//PermanentMarker
-.font-32-permanentMarker {
-  font-size: vw1(32px);
-  line-height: vw1(38px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-.font-40-permanentMarker {
-  font-size: vw1(40px);
-  line-height: vw1(48px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-.font-48-permanentMarker {
-  font-size: vw1(48px);
-  line-height: vw1(57px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-.font-54-permanentMarker {
-  font-size: vw1(54px);
-  line-height: vw1(64px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-.font-64-permanentMarker {
-  font-size: vw1(64px);
-  line-height: vw1(76px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-.font-72-permanentMarker {
-  font-size: vw1(72px);
-  line-height: vw1(86px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-.font-96-permanentMarker {
-  font-size: vw1(96px);
-  line-height: vw1(115px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-.font-128-permanentMarker {
-  font-size: vw1(128px);
-  line-height: vw1(115px);
-  margin-bottom: 0;
-  @include fontPermanentMarker;
-}
-//gloria
-.font-24-gloria {
-  font-size: vw1(24px);
-  line-height: vw1(28px);
-  margin-bottom: 0;
-  @include fontgloria;
-}
-//coda
-.font-32-coda {
-  font-size: vw1(32px);
-  line-height: vw1(32px);
-  @include fontCodaExtrabold;
-  margin-bottom: 0;
-}
-.font-40-coda {
-  font-size: vw1(40px);
-  line-height: vw1(48px);
-  @include fontCodaExtrabold;
-  margin-bottom: 0;
-}
-//lato
-.font-24-lato-bold {
-  font-size: vw1(24px);
-  margin-bottom: 0;
-  line-height: vw1(28px);
-  @include fontLatoBold;
-}
-.font-18-lato-regular {
-  font-size: vw1(18px);
-  margin-bottom: 0;
-  line-height: vw1(21px);
-  @include fontLatoRegular;
 }

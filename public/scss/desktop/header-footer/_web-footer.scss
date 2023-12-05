@@ -42,8 +42,7 @@
   padding-right: vw1(33px);
 }
 .web-footer-right-section {
-  // padding-left: vw(112px);
-  padding-left: vw(50px);
+  padding-left: vw(112px);
 }
 .footer-fast-company {
   width: vw1(140px);
@@ -75,8 +74,7 @@
   padding: 0;
   border: none;
   margin-top: vw1(30px);
-  // margin-bottom: vw(58px);
-  margin-bottom: vw(30px);
+  margin-bottom: vw(58px);
   @include theme-mixin-orange-btn;
   @include fontBold700;
 }

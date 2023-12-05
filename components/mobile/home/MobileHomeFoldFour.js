@@ -4,17 +4,20 @@ const howItWorksArray = [
   {
     iconImg: "/imgs/mobile/icons/purple-save-icon.svg",
     iconClass: "how-it-work-purple-save-icon",
-    para: "Post your requirements for Product & Engineering Teams.",
+    // para: "Post your requirements for Product & Engineering Teams.",
+    para: "Post your requirements for Product & Engineering Teams with duration and budget.",
   },
   {
     iconImg: "/imgs/mobile/icons/blue-two-people-icon.svg",
     iconClass: "blue-two-people-icon",
-    para: "Top resource augmentation firms across the world access  your requirements.",
+    para: "Top tech agencies from around the world reach out to you.",
+    // para: "Top resource augmentation firms across the world access  your requirements.",
   },
   {
     iconImg: "/imgs/mobile/icons/how-it-work-red-star-icon.svg",
     iconClass: "how-it-work-red-star-icon",
-    para: "Connect with the best team for your specific requirements.",
+    // para: "Connect with the best team for your specific requirements.",
+    para: "Connect with the most competent agencies, hire engineers on  short-term contract.  And Build your product.",
   },
 ];
 
@@ -25,8 +28,9 @@ export default function MobileHomeFoldFour() {
         How does it work?
       </h2>
       <p className="mobile-font-14-nunito-sans-400 mobile-home-how-it-works--subtitle">
-        Lorem ipsum dolor sit amet, consectetur
-        <br /> adipiscing elit,
+        {/* Lorem ipsum dolor sit amet, consectetur
+        <br /> adipiscing elit, */}
+        Onboard Engineering Resources In Just 3 Steps.
       </p>
       <div className="pt-28">
         {howItWorksArray.map((data, index) => (

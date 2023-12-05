@@ -1,11 +1,14 @@
 .home-title-text {
   width: mvw(317px);
   height: auto;
+  margin-left: mvw(60px);
   margin-top: mvw(87px);
 }
 .mobile-home-fold-para-text {
   padding-top: mvw(23px);
   color: $theme-text-black-06;
+  padding-left: mvw(10px);
+  padding-right: mvw(10px);
 }
 .mobile-home-fold-para-text-2 {
   padding-top: vw(31px);
@@ -211,7 +214,8 @@
   padding: mvw(8px) mvw(10px) mvw(9px) mvw(7px);
 }
 .mobile-home-how-it-works-section {
-  padding: mvw(27px) mvw(24px) 0 mvw(24px);
+  // padding: mvw(27px) mvw(24px) 0 mvw(24px);
+  padding: mvw(50px) mvw(24px) mvw(20px) mvw(24px);
 }
 .home-mobile-how-it-works-card-icon {
   width: mvw(60px);
@@ -356,4 +360,22 @@
 .mobile-home-technologies-outer-section {
   padding-top: mvw(36px);
   padding-bottom: mvw(27px);
+}
+// .mobile-home-existing-client-card-img {
+//   width: 100%;
+//   height: mvw(100px);
+//   overflow: hidden;
+
+//   img {
+//     object-fit: contain;
+//   }
+// }
+.mobile-home-company-img1 {
+  width: mvw(180px);
+}
+.mobile-home-company-img2 {
+  width: mvw(180px);
+}
+.mobile-home-company-img3 {
+  width: mvw(160px);
 }

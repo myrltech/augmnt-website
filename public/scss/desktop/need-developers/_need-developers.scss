@@ -1,0 +1,75 @@
+.need-developer-section {
+  padding: vw1(73px) vw1(29px) vw1(76px) vw1(61px);
+
+  .font-48-proxima-nova-700 {
+    font-size: vw1(48px);
+    line-height: vw1(58px);
+  }
+  .font-18-nunito-sans-400 {
+    font-size: vw1(18px);
+    line-height: vw1(22px);
+  }
+}
+.need-developer-title {
+  color: $theme-orange-bg;
+}
+.need-developer-para {
+  color: $theme-text-pure-black;
+}
+.need-developer-input {
+  // width: vw(422px);
+  // height: vw(64px);
+  width: vw1(550px);
+  height: vw1(64px);
+  background: $theme-yellow-input-bg;
+  border-radius: vw(4px);
+
+  input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: inherit;
+    border: none;
+    font-size: vw1(14px);
+    line-height: vw1(19px);
+    color: $theme-text-gray-4;
+    @include fontBold700;
+    padding: vw(16px) vw(27px);
+
+    &::placeholder {
+      @include fontSemiBold600;
+    }
+  }
+}
+.need-developer-img {
+  // width: vw1(410px);
+  width: vw1(450px);
+  height: auto;
+  margin-top: vw(46px);
+}
+.need-developer-form-section {
+  // padding-top: vw(64px);
+  padding-top: vw(44px);
+}
+.need-developer-btn {
+  // width: vw1(368px);
+  // height: vw1(85px);
+  width: vw1(350px);
+  height: vw1(85px);
+  @include theme-mixin-orange-btn;
+  font-size: vw1(24px);
+  line-height: vw1(85px);
+  margin-top: vw1(65px);
+  @include fontBold700;
+}
+.need-developer-thank-you-section {
+  padding: vw1(73px) 0 vw1(55px) vw1(61px);
+  .font-48-proxima-nova-700 {
+    font-size: vw1(48px);
+    line-height: vw1(58px);
+  }
+  .font-18-nunito-sans-400 {
+    font-size: vw1(18px);
+    line-height: vw1(22px);
+  }
+}

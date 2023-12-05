@@ -51,7 +51,22 @@ export default function WebNavbar({ activeIndex }) {
                 </a>
               </Link>
             </li>
-            <li className="font-14-proxima-nova-400">
+            <li className="font-14-proxima-nova-400 ">
+              <Link href="/">
+                <a>
+                  <span
+                    className={
+                      activeIndex === "tech-agencies"
+                        ? "cursor-default web-navbar-menu--active"
+                        : "cursor-pointer"
+                    }
+                  >
+                    Tech Agencies
+                  </span>
+                </a>
+              </Link>
+            </li>
+            <li className="font-14-proxima-nova-400 p-0">
               <Link href="/blogs">
                 <a>
                   <span
@@ -66,7 +81,7 @@ export default function WebNavbar({ activeIndex }) {
                 </a>
               </Link>
             </li>
-            <li className="font-14-proxima-nova-400 p-0">
+            {/* <li className="font-14-proxima-nova-400 p-0">
               <Link href="/">
                 <a>
                   <span
@@ -80,7 +95,7 @@ export default function WebNavbar({ activeIndex }) {
                   </span>
                 </a>
               </Link>
-            </li>
+            </li> */}
           </ul>
           <Link href="/contact-us">
             <a>

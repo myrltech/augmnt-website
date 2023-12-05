@@ -1,0 +1,42 @@
+.need-to-be-logged-in-contact-btn {
+  @include theme-mixin-orange-btn-vw1;
+  box-shadow: 0 vw1(13px) vw1(31px) rgba(250, 116, 43, 0.13);
+  width: vw1(202px);
+  height: vw1(61px);
+  font-size: vw1(18px);
+  line-height: vw1(61px);
+  @include fontBold700;
+}
+.need-to-be-logged-in-section {
+  padding: vw1(61px) vw1(136px) vw1(55px) vw1(137px);
+}
+.need-to-be-logged-in-para {
+  margin-top: vw1(50px);
+  padding-top: vw1(25px);
+  color: rgba(79, 79, 79, 0.8);
+  font-size: vw1(24px);
+  line-height: vw1(33px);
+  border-top: vw1(1px) solid rgba(0, 0, 0, 0.12);
+}
+.need-to-be-logged-in-contact-btn--take-me {
+  margin-top: vw1(42px);
+  width: vw1(249px);
+  margin-bottom: vw1(42px);
+}
+/*================================================================================
+                           sign up text
+=============================================================================*/
+.dont-have-text {
+  font-size: vw1(18px);
+  line-height: vw1(30px);
+  color: rgba(47, 47, 47, 0.76);
+}
+.get-in-touch-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  padding-left: vw1(6px);
+  line-height: vw1(27px);
+  height: vw1(27px);
+  color: rgba(47, 47, 47, 0.76);
+}

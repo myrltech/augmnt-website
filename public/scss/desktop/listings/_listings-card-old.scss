@@ -1,0 +1,114 @@
+// .listings-main-card {
+//   padding: vw1(16px) vw1(44px) vw1(31px) vw1(18px);
+//   width: vw1(1117px);
+//   background: rgba(255, 255, 255, 0.9);
+//   border-radius: vw1(4px);
+//   margin-bottom: vw1(9px);
+//   margin-right: vw1(124px);
+// }
+// .listings-main-card__row1__colm1-textBlock {
+//   p {
+//     white-space: nowrap;
+//     color: #4f4f4f;
+//     margin-right: vw1(14px);
+//     margin-bottom: vw(5px);
+
+//     img {
+//       vertical-align: baseline;
+//       width: vw1(17px);
+//       margin-right: vw1(6px);
+//     }
+
+//     .listings-main-card__row1__colm1-img2 {
+//       width: vw1(19px);
+//     }
+//     .listings-main-card__row1__colm1-img2 {
+//       width: vw1(12px);
+//     }
+//   }
+// }
+
+// .listings-main-card-btn {
+//   width: vw(161px);
+//   height: vw(47px);
+//   @include theme-mixin-orange-btn-vw1;
+//   font-size: vw(14px);
+//   line-height: vw(44px);
+//   @include fontSemiBold600;
+//   display: inline-block;
+//   text-align: center;
+// }
+// .listings-login-btn {
+//   width: vw(249px);
+//   height: vw(61px);
+//   @include theme-mixin-orange-btn-vw1;
+//   font-size: vw1(24px);
+//   line-height: vw1(43px);
+//   @include fontBold700;
+//   display: inline-block;
+//   margin-bottom: vw(51px);
+// }
+// .listings-main-card__desc {
+//   color: rgba(0, 0, 0, 0.67);
+//   margin-bottom: vw(9px);
+// }
+// .listings-main-card__row1__colm1 {
+//   padding: vw1(13px) vw1(10px) vw1(5px) vw1(21px) !important;
+//   border-right: vw1(1px) solid rgba(0, 0, 0, 0.06);
+
+//   h2 {
+//     color: #18181b;
+//     margin-bottom: vw1(15px);
+
+//     img {
+//       margin-left: vw1(11px);
+//       width: vw1(17px);
+//       height: auto;
+//       vertical-align: baseline;
+//     }
+//   }
+// }
+// .listings-main-card__row1__colm2-title {
+//   color: #363636;
+//   text-align: center;
+// }
+// .listings-main-card__row1__colm2 {
+//   padding-left: vw1(31px) !important;
+// }
+// .listings-card-hr {
+//   height: vw(2px) !important;
+//   background-color: rgba(0, 0, 0, 0.07);
+//   margin-top: vw1(11px) !important;
+//   margin-bottom: vw1(13px) !important;
+// }
+// .listings-main-card__row1__colm2-desc {
+//   color: #4f4f4f;
+//   text-align: center;
+// }
+// .listings-main-card__desc {
+//   padding-right: vw1(13px);
+//   padding-left: vw1(21px);
+// }
+// .listings-main-card__row2 {
+//   padding-right: vw1(42px);
+//   padding-left: vw1(21px);
+// }
+// .listings-main-card__row2__colm1 {
+//   h3 {
+//     color: rgba(47, 47, 47, 0.76);
+//     margin-right: vw1(14px);
+//   }
+// }
+// .listings-main-card__row2__colm1-ul {
+//   list-style-type: none;
+
+//   li {
+//     padding: vw(5px) vw(10px);
+//     font-size: vw(10px);
+//     line-height: vw(15px);
+//     color: #777777;
+//     background: rgba(255, 69, 9, 0.1);
+//     border-radius: vw1(4px);
+//     margin-right: vw1(19px);
+//   }
+// }

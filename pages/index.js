@@ -1,27 +1,21 @@
+// import Head from "next/head";
+// import Image from "next/image";
 import HeadTag from "../components/common/HeadTag";
-import WebFooter from "../components/desktop/header-footer/WebFooter";
-import ListingMain from "../components/desktop/listings/ListingMain";
-// import HomeMain from "../components/desktop/home/HomeMain";
+import LandingPageHome from "../components/desktop/home/LandingPageHome";
 import MobileFooter from "../components/mobile/header-footer/MobileFooter";
-import MobileListingMain from "../components/mobile/listings/MobileListingMain";
+import MobileHomeMain from "../components/mobile/home/MobileHomeMain";
+// import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <>
       <HeadTag title="Augmnt" />
       <div className="d-none d-md-block">
-        <ListingMain />
+        <LandingPageHome />
       </div>
       <div className="d-block d-md-none">
-        {/* <HomeMain /> */}
-        <MobileListingMain />
-      </div>
-
-      <div className="d-none d-md-block">
-        <WebFooter />
-      </div>
-      <div className="d-block d-md-none">
-        <MobileFooter />
+        <MobileHomeMain />
+        <MobileFooter activeIndex="home" />
       </div>
     </>
   );

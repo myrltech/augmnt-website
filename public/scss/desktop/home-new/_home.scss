@@ -1,8 +1,8 @@
 .home-new-title-logo {
-  padding: vw1(55px) 0 vw1(2px) vw1(80px);
+  padding: vw1(55px) 0 vw1(48px) vw1(80px);
 }
 .home-new-augmnt-logo {
-  width: vw1(200px);
+  width: vw1(143px);
   height: auto;
 }
 .home-new-fold-one-section {
@@ -11,25 +11,6 @@
 }
 .home-new-fold-one {
   width: vw1(968px);
-  height: auto;
-}
-
-.home-fold-one-img-section {
-  position: relative;
-  z-index: -1;
-
-  .home-fold-one-img-section-text-img {
-    width: vw1(753px);
-    height: auto;
-    position: absolute;
-    right: vw1(130px);
-    top: vw1(460px);
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
 }
 .home-new-hash-icon {
   width: vw1(48px);
@@ -134,15 +115,6 @@
     line-height: vw1(34px);
   }
 }
-
-.home-new-fold-two-row-two-para {
-  .home-new-testomonial-card-one-text1 {
-    width: vw1(648px);
-  }
-  .home-new-fold-two-founder-block {
-    margin-left: vw1(100px);
-  }
-}
 .john-mayor-img {
   width: vw1(60px);
   height: auto;
@@ -198,11 +170,6 @@
     line-height: vw1(50px);
   }
 }
-.home-new-fold-two-row-three-card {
-  .home-new-testomonial-card-one-text1 {
-    width: vw1(482px);
-  }
-}
 .home-new-testomonial-row-2 {
   position: relative;
   padding-top: vw1(85px);
@@ -210,9 +177,7 @@
 .home-new-chat-icon-section {
   width: vw1(116px);
   position: absolute;
-  // top: vw1(-69px);
-  top: vw1(-150px);
-  left: 46%;
+  top: vw1(-69px);
   img {
     width: 100%;
     height: auto;
@@ -246,7 +211,6 @@
 .home-new-fold-two-main-section {
   position: relative;
   z-index: 99;
-  padding-top: vw1(90px);
   padding-bottom: vw1(137px);
 
   &::before {
@@ -358,13 +322,9 @@
   width: vw1(769px);
 }
 .home-new-fold-three-block-two__img {
-  width: vw1(863px);
-  // height: vw1(550px);
-  // background: rgba(255, 62, 0, 0.11);
-  img {
-    width: 100%;
-    height: auto;
-  }
+  width: vw1(907px);
+  height: vw1(550px);
+  background: rgba(255, 62, 0, 0.11);
 }
 .home-new-fold-three-block-two {
   padding: vw1(300px) vw1(31px) vw1(136px) vw1(80px);

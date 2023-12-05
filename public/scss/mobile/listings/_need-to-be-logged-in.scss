@@ -1,0 +1,49 @@
+.need-to-be-logged-in-contact-btn {
+  // @include theme-mixin-orange-btn-vw1;
+  // box-shadow: 0 vw1(13px) vw1(31px) rgba(250, 116, 43, 0.13);
+  // width: vw1(202px);
+  // height: vw1(61px);
+  // font-size: vw1(18px);
+  // line-height: vw1(61px);
+  // @include fontBold700;
+  width: mvw(202px);
+  height: mvw(41px);
+  @include theme-mixin-orange-btn-vw1;
+  font-size: mvw(12px);
+  line-height: mvw(40px);
+  @include fontSemiBold600;
+  display: inline-block;
+  text-align: center;
+}
+.need-to-be-logged-in-section {
+  padding: vw1(61px) vw1(136px) vw1(55px) vw1(137px);
+}
+.need-to-be-logged-in-para {
+  margin-top: vw1(50px);
+  padding-top: vw1(25px);
+  color: rgba(79, 79, 79, 0.8);
+  border-top: vw1(1px) solid rgba(0, 0, 0, 0.12);
+}
+.need-to-be-logged-in-contact-btn--take-me {
+  margin-top: mvw(24px);
+  width: mvw(128px);
+  height: mvw(41px);
+  margin-bottom: mvw(24px);
+}
+/*================================================================================
+                             sign up text
+  =============================================================================*/
+.dont-have-text {
+  color: rgba(47, 47, 47, 0.76);
+}
+.get-in-touch-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: mvw(14px);
+  line-height: mvw(19px);
+  padding-left: vw1(6px);
+  line-height: vw1(27px);
+  height: vw1(27px);
+  color: rgba(47, 47, 47, 0.76);
+}

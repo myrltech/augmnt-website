@@ -182,68 +182,6 @@ $font-weight-OpenSans-Bold: 700;
   font-family: $font-OpenSans-Bold, $font-fallback-1, $font-fallback-2;
 }
 
-/*=====================================================
-                      Pacifico
-======================================================*/
-$font-pacifico: "Pacifico";
-$font-weight-pacifico: 400;
-
-@mixin fontpacifico {
-  font-weight: $font-weight-pacifico;
-  font-family: $font-pacifico, $font-fallback-1, $font-fallback-2;
-}
-
-/*=====================================================
-                      Pacifico
-======================================================*/
-$font-permanentMarker: "PermanentMarker-Regular";
-$font-weight-permanentMarker: 400;
-
-@mixin fontPermanentMarker {
-  font-weight: $font-weight-permanentMarker;
-  font-family: $font-permanentMarker, $font-fallback-1, $font-fallback-2;
-}
-
-/*=====================================================
-                      Gloria Hallelujah
-======================================================*/
-$font-gloria: "GloriaHallelujah-Regular";
-$font-weight-gloria: 400;
-
-@mixin fontgloria {
-  font-weight: $font-weight-gloria;
-  font-family: $font-gloria, $font-fallback-1, $font-fallback-2;
-}
-
-/*=====================================================
-                      Gloria Hallelujah
-======================================================*/
-$font-coda: "Coda-ExtraBold";
-$font-weight-coda: 800;
-
-@mixin fontCodaExtrabold {
-  font-weight: $font-weight-coda;
-  font-family: $font-coda, $font-fallback-1, $font-fallback-2;
-}
-
-/*=====================================================
-                      lato
-======================================================*/
-$font-lato-regular: "Lato-Regular";
-$font-weight-lato-regular: 800;
-
-$font-lato-bold: "Lato-Bold";
-$font-weight-lato-bold: 700;
-
-@mixin fontLatoRegular {
-  font-weight: $font-weight-lato-regular;
-  font-family: $font-lato-regular, $font-fallback-1, $font-fallback-2;
-}
-
-@mixin fontLatoBold {
-  font-weight: $font-weight-lato-bold;
-  font-family: $font-lato-bold, $font-fallback-1, $font-fallback-2;
-}
 /*==============================================
                    mixin
 ===============================================*/
