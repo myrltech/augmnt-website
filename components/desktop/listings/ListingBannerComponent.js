@@ -1,6 +1,6 @@
 import React from "react";
 // imgs
-const logo = "/imgs/desktop/listings/augmnt-agency-main-logo.svg";
+const logo = "./imgs/desktop/listings/augmnt-agency-main-logo.svg";
 const upArrow = "/imgs/desktop/listings/upword-arrow.svg";
 const downArrow = "/imgs/desktop/listings/down-arrow.svg";
 const rightSpringArrow = "/imgs/desktop/listings/right-spring-arrow-icon.svg";
