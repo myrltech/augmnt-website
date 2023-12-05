@@ -1,0 +1,104 @@
+.pt-10 {
+  padding-top: vw(10px);
+}
+.pt-11 {
+  padding-top: vw(11px);
+}
+.pt-15 {
+  padding-top: vw(15px);
+}
+.pt-20 {
+  padding-top: vw(20px);
+}
+.pt-25 {
+  padding-top: vw(25px);
+}
+.pt-26 {
+  padding-top: vw(26px);
+}
+.pt-30 {
+  padding-top: vw(30px);
+}
+.pt-35 {
+  padding-top: vw(35px);
+}
+.pt-40 {
+  padding-top: vw(40px);
+}
+.pt-50 {
+  padding-top: vw(50px);
+}
+
+// padding left
+.pl-4 {
+  padding-left: vw1(4px);
+}
+.pl-10 {
+  padding-left: vw1(10px);
+}
+.pl-30 {
+  padding-left: vw1(30px);
+}
+.pl-40 {
+  padding-left: vw(40px);
+}
+
+.pl-72 {
+  padding-left: vw(72px);
+}
+
+.mb-6 {
+  margin-bottom: vw(6px);
+}
+.mb-27 {
+  margin-bottom: vw(27px);
+}
+
+.pt-60 {
+  padding-top: vw(60px);
+}
+
+.pl-165 {
+  padding-left: vw(165px);
+}
+.float-right {
+  float: right;
+}
+
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-color-black-opacity-78 {
+  color: $theme-text-black-78;
+}
+.text-color-black {
+  color: $theme-text-black-3;
+}
+
+.text-color-orange {
+  color: $theme-text-orange;
+}
+.text-color-pure-black {
+  color: $theme-text-pure-black;
+}
+.text-color-gray {
+  color: rgba(0, 0, 0, 0.5);
+}
+.orange-btn {
+  height: vw1(80px);
+  border: none;
+  background: #ff4509;
+  box-shadow: 0 vw1(13px) vw1(41px) rgba(250, 116, 43, 0.44);
+  border-radius: vw1(11px);
+  color: white;
+  width: vw1(349px);
+}
+.relative {
+  position: relative;
+}
+.w-fit {
+  width: max-content;
+}

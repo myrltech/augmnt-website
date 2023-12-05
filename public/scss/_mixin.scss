@@ -1,0 +1,278 @@
+// extra light
+$font-NunitoSans_ExtraLight: "NunitoSans-ExtraLight";
+$font-weight-NunitoSans_ExtraLight: 200;
+
+// light
+$font-NunitoSans_Light: "NunitoSans-Light";
+$font-weight-NunitoSans_Light: 300;
+
+// regular
+$font-NunitoSans_Regular: "NunitoSans-Regular";
+$font-weight-NunitoSans_Regular: 400;
+
+// italic
+$font-NunitoSans_Italic: "NunitoSans-Italic";
+
+// semi bold
+$font-NunitoSans_SemiBold: "NunitoSans-SemiBold";
+$font-weight-NunitoSans_SemiBold: 600;
+
+// bold
+$font-NunitoSans_Bold: "NunitoSans-Bold";
+$font-weight-NunitoSans_Bold: 700;
+
+// extra bold
+$font-NunitoSans_ExtraBold: "NunitoSans-ExtraBold";
+$font-weight-NunitoSans_ExtraBold: 800;
+
+// black
+$font-NunitoSans_Black: "NunitoSans-Black";
+$font-weight-NunitoSans_Black: 900;
+
+$font-fallback-1: sans-serif;
+$font-fallback-2: "Helvetica";
+
+// mixin NunitoSans
+@mixin fontExtraLight200 {
+  font-weight: $font-weight-NunitoSans_ExtraLight;
+  font-family: $font-NunitoSans_ExtraLight, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontLight300 {
+  font-weight: $font-weight-NunitoSans_Light;
+  font-family: $font-NunitoSans_Light, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontRegular400 {
+  font-weight: $font-weight-NunitoSans_Regular;
+  font-family: $font-NunitoSans_Regular, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontRegular400Important {
+  font-weight: $font-weight-NunitoSans_Regular !important;
+  font-family: $font-NunitoSans_Regular, $font-fallback-1, $font-fallback-2 !important;
+}
+
+@mixin fontItalicNunitoSans {
+  font-weight: $font-weight-NunitoSans_Regular;
+  font-family: $font-NunitoSans_Italic, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontSemiBold600 {
+  font-weight: $font-weight-NunitoSans_SemiBold;
+  font-family: $font-NunitoSans_SemiBold, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontSemiBold600Important {
+  font-weight: $font-weight-NunitoSans_SemiBold !important;
+  font-family: $font-NunitoSans_SemiBold, $font-fallback-1, $font-fallback-2 !important;
+}
+
+@mixin fontBold700 {
+  font-weight: $font-weight-NunitoSans_Bold;
+  font-family: $font-NunitoSans_Bold, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontExtraBold800 {
+  font-weight: $font-weight-NunitoSans_ExtraBold;
+  font-family: $font-NunitoSans_ExtraBold, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontBlack900 {
+  font-weight: $font-weight-NunitoSans_Black;
+  font-family: $font-NunitoSans_Black, $font-fallback-1, $font-fallback-2;
+}
+
+/*==============================================
+            Proxima
+==============================================*/
+$font-Proxima-Light: "Proxima-Light";
+$font-weight-Proxima-Light: 250;
+
+$font-Proxima-Regular: "Proxima-Regular";
+$font-weight-Proxima-Regular: 400;
+
+$font-Proxima-Bold: "Proxima-Bold";
+$font-weight-Proxima-Bold: 700;
+
+$font-Proxima-ExtraBold: "Proxima-ExtraBold";
+$font-weight-Proxima-ExtraBold: 800;
+
+$font-Proxima-Black: "Proxima-Black";
+$font-weight-Proxima-Black: 900;
+
+@mixin fontProximaLight {
+  font-weight: $font-weight-Proxima-Light;
+  font-family: $font-Proxima-Light, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontProximaRegular {
+  font-weight: $font-weight-Proxima-Regular;
+  font-family: $font-Proxima-Regular, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontProximaBold {
+  font-weight: $font-weight-Proxima-Bold;
+  font-family: $font-Proxima-Bold, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontProximaExtraBold {
+  font-weight: $font-weight-Proxima-ExtraBold;
+  font-family: $font-Proxima-ExtraBold, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontProximaBlack {
+  font-weight: $font-weight-Proxima-Black;
+  font-family: $font-Proxima-Black, $font-fallback-1, $font-fallback-2;
+}
+
+/*==============================================
+            Poiret
+==============================================*/
+$font-PoiretOne-Regular: "PoiretOne-Regular";
+$font-weight-PoiretOne-Regular: 400;
+
+@mixin fontPoiretOne400 {
+  font-weight: $font-weight-PoiretOne-Regular;
+  font-family: $font-PoiretOne-Regular, $font-fallback-1, $font-fallback-2;
+}
+
+/*==============================================
+            Inter
+==============================================*/
+$font-Inter-Regular: "Inter-Regular";
+$font-weight-Inter-Regular: 400;
+
+$font-Inter-Medium: "Inter-Medium";
+$font-weight-Inter-Medium: 500;
+
+$font-Inter-Bold: "Inter-Bold";
+$font-weight-Inter-Bold: 700;
+
+@mixin fontInterRegular400 {
+  font-weight: $font-weight-Inter-Regular;
+  font-family: $font-Inter-Regular, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontInterMedium500 {
+  font-weight: $font-weight-Inter-Medium;
+  font-family: $font-Inter-Medium, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontInterBold700 {
+  font-weight: $font-weight-Inter-Bold;
+  font-family: $font-Inter-Bold, $font-fallback-1, $font-fallback-2;
+}
+
+/*==============================================
+            Open_Sans
+==============================================*/
+$font-OpenSans-SemiBold: "OpenSans-SemiBold";
+$font-weight-OpenSans-SemiBold: 600;
+
+$font-OpenSans-Bold: "OpenSans-Bold";
+$font-weight-OpenSans-Bold: 700;
+
+@mixin fontOpenSans600 {
+  font-weight: $font-weight-OpenSans-SemiBold;
+  font-family: $font-OpenSans-SemiBold, $font-fallback-1, $font-fallback-2;
+}
+@mixin fontOpenSans700 {
+  font-weight: $font-weight-OpenSans-Bold;
+  font-family: $font-OpenSans-Bold, $font-fallback-1, $font-fallback-2;
+}
+
+/*=====================================================
+                      Pacifico
+======================================================*/
+$font-pacifico: "Pacifico";
+$font-weight-pacifico: 400;
+
+@mixin fontpacifico {
+  font-weight: $font-weight-pacifico;
+  font-family: $font-pacifico, $font-fallback-1, $font-fallback-2;
+}
+
+/*=====================================================
+                      Pacifico
+======================================================*/
+$font-permanentMarker: "PermanentMarker-Regular";
+$font-weight-permanentMarker: 400;
+
+@mixin fontPermanentMarker {
+  font-weight: $font-weight-permanentMarker;
+  font-family: $font-permanentMarker, $font-fallback-1, $font-fallback-2;
+}
+
+/*=====================================================
+                      Gloria Hallelujah
+======================================================*/
+$font-gloria: "GloriaHallelujah-Regular";
+$font-weight-gloria: 400;
+
+@mixin fontgloria {
+  font-weight: $font-weight-gloria;
+  font-family: $font-gloria, $font-fallback-1, $font-fallback-2;
+}
+
+/*=====================================================
+                      Gloria Hallelujah
+======================================================*/
+$font-coda: "Coda-ExtraBold";
+$font-weight-coda: 800;
+
+@mixin fontCodaExtrabold {
+  font-weight: $font-weight-coda;
+  font-family: $font-coda, $font-fallback-1, $font-fallback-2;
+}
+
+/*=====================================================
+                      lato
+======================================================*/
+$font-lato-regular: "Lato-Regular";
+$font-weight-lato-regular: 800;
+
+$font-lato-bold: "Lato-Bold";
+$font-weight-lato-bold: 700;
+
+@mixin fontLatoRegular {
+  font-weight: $font-weight-lato-regular;
+  font-family: $font-lato-regular, $font-fallback-1, $font-fallback-2;
+}
+
+@mixin fontLatoBold {
+  font-weight: $font-weight-lato-bold;
+  font-family: $font-lato-bold, $font-fallback-1, $font-fallback-2;
+}
+/*==============================================
+                   mixin
+===============================================*/
+
+@mixin letter-spacing-06 {
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+@mixin theme-mixin-orange-btn {
+  background: $theme-orange-bg;
+  box-shadow: 0 vw1(13px) vw1(41px) rgba(250, 116, 43, 0.44);
+  border: none;
+  font-size: vw(14px);
+  border-radius: vw(11px);
+  color: $theme-text-white;
+}
+
+@mixin theme-mixin-orange-btn-vw1 {
+  background: $theme-orange-bg;
+  box-shadow: 0 vw1(13px) vw1(31px) rgba(250, 116, 43, 0.13);
+  border: none;
+  font-size: vw1(18px);
+  border-radius: vw1(11px);
+  color: $theme-text-white;
+}
+@mixin theme-modal-bg {
+  background: $theme-white-bg !important;
+  box-shadow: 0 vw(1px) vw(2px) rgba(0, 0, 0, 0.06),
+    0 vw(1px) vw(3px) rgba(0, 0, 0, 0.1) !important;
+  border-radius: vw(4px);
+}

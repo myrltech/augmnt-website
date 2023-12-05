@@ -1,0 +1,495 @@
+/*=====================================
+           nunito-sans
+======================================*/
+.font-24-nunito-sans-200 {
+  font-size: vw(24px);
+  line-height: vw(32px);
+  @include fontExtraLight200;
+  margin-bottom: 0;
+}
+// 300
+.font-14-nunito-sans-300 {
+  font-size: vw(14px);
+  line-height: vw(19px);
+  @include fontLight300;
+  margin-bottom: 0;
+}
+// 400
+.font-14-nunito-sans-400 {
+  font-size: vw(14px);
+  line-height: vw(19px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.font-16-nunito-sans-400 {
+  font-size: vw(16px);
+  line-height: vw(22px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.font-18-nunito-sans-400 {
+  font-size: vw(18px);
+  line-height: vw(25px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.font-20-nunito-sans-400 {
+  font-size: vw(20px);
+  line-height: vw(28px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.font-22-nunito-sans-400 {
+  font-size: vw(22px);
+  line-height: vw(30px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+.font-24-nunito-sans-400 {
+  font-size: vw(24px);
+  line-height: vw(32px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+// 600
+.font-12-nunito-sans-600 {
+  font-size: vw(12px);
+  line-height: vw(16px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-14-nunito-sans-600 {
+  font-size: vw(14px);
+  line-height: vw(19px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-18-nunito-sans-600 {
+  font-size: vw(18px);
+  line-height: vw(25px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-20-nunito-sans-600 {
+  font-size: vw(20px);
+  line-height: vw(30px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-24-nunito-sans-600 {
+  font-size: vw(24px);
+  line-height: vw(36px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+.font-36-nunito-sans-600 {
+  font-size: vw1(36px);
+  line-height: vw1(49px);
+  @include fontSemiBold600;
+  margin-bottom: 0;
+}
+
+// 700
+.font-10-nunito-sans-700 {
+  font-size: vw(10px);
+  line-height: vw(15px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+.font-18-nunito-sans-700 {
+  font-size: vw(18px);
+  line-height: vw(25px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+.font-20-nunito-sans-700 {
+  font-size: vw(20px);
+  line-height: vw(32px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+.font-24-nunito-sans-700 {
+  font-size: vw(24px);
+  line-height: vw(32px);
+  @include fontBold700;
+  margin-bottom: 0;
+}
+
+.font-30-nunito-sans-700 {
+  font-size: vw(30px);
+  line-height: vw(54px);
+  @include fontRegular400;
+  margin-bottom: 0;
+}
+// 800
+.font-20-nunito-sans-800 {
+  font-size: vw(20px);
+  line-height: vw(28px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+.font-24-nunito-sans-800 {
+  font-size: vw(24px);
+  line-height: vw(32px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+.font-36-nunito-sans-800 {
+  font-size: vw(36px);
+  line-height: vw(49px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+.font-122-nunito-sans-800 {
+  font-size: vw(122px);
+  line-height: vw(122px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+.font-144-nunito-sans-800 {
+  font-size: vw(144px);
+  line-height: vw(204px);
+  @include fontExtraBold800;
+  margin-bottom: 0;
+}
+// 900
+.font-14-nunito-sans-900 {
+  font-size: vw(14px);
+  line-height: vw(21px);
+  @include fontBlack900;
+  margin-bottom: 0;
+}
+.font-18-nunito-sans-900 {
+  font-size: vw1(18px);
+  line-height: vw1(27px);
+  @include fontBlack900;
+  margin-bottom: 0;
+}
+/*=====================================
+           poiretOne
+======================================*/
+.font-24-poiret-one-400 {
+  font-size: vw(24px);
+  line-height: vw(28px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-32-poiret-one-400 {
+  font-size: vw(32px);
+  line-height: vw(37px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-36-poiret-one-400 {
+  font-size: vw(36px);
+  line-height: vw(42px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-42-poiret-one-400 {
+  font-size: vw(42px);
+  line-height: vw(49px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-48-poiret-one-400 {
+  // font-size: vw(48px);
+  // line-height: vw(56px);
+  font-size: vw(45px);
+  line-height: vw(53px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-55-poiret-one-400 {
+  font-size: vw(55px);
+  line-height: vw(60px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-60-poiret-one-400 {
+  font-size: vw(60px);
+  line-height: vw(70px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-64-poiret-one-400 {
+  font-size: vw(64px);
+  line-height: vw(75px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.font-72-poiret-one-400 {
+  // font-size: vw(72px);
+  // line-height: vw(87px);
+  font-size: vw(67px);
+  line-height: vw(82px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+
+/*=====================================
+           proximaNova
+======================================*/
+.font-13-proxima-nova-400 {
+  font-size: vw(13px);
+  line-height: vw(16px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.font-14-proxima-nova-400 {
+  font-size: vw(14px);
+  line-height: vw(17px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.font-18-proxima-nova-400 {
+  font-size: vw1(18px);
+  line-height: vw1(27px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.font-24-proxima-nova-400 {
+  font-size: vw1(24px);
+  line-height: vw1(29px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.font-48-proxima-nova-400 {
+  font-size: vw(48px);
+  line-height: vw(58px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+// 700
+.font-14-proxima-nova-700 {
+  font-size: vw(14px);
+  line-height: vw(17px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-16-proxima-nova-700 {
+  font-size: vw(16px);
+  line-height: vw(19px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+
+.font-18-proxima-nova-700 {
+  font-size: vw(18px);
+  line-height: vw(22px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-24-proxima-nova-700 {
+  font-size: vw1(24px);
+  line-height: vw1(29px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-36-proxima-nova-700 {
+  font-size: vw(36px);
+  line-height: vw(43px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+// 700
+.font-36-proxima-nova-700 {
+  font-size: vw(36px);
+  line-height: vw(43px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-44-proxima-nova-700 {
+  font-size: vw(44px);
+  line-height: vw(54px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-48-proxima-nova-700 {
+  font-size: vw(48px);
+  line-height: vw(58px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-64-proxima-nova-700 {
+  font-size: vw(64px);
+  line-height: vw(78px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.font-72-proxima-nova-700 {
+  font-size: vw(72px);
+  line-height: vw(87px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+//800
+.font-44-proxima-nova-800 {
+  font-size: vw1(44px);
+  line-height: vw1(54px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.font-64-proxima-nova-800 {
+  font-size: vw1(64px);
+  line-height: vw1(78px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.font-128-proxima-nova-800 {
+  font-size: vw1(128px);
+  line-height: vw1(153px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+
+// 900
+.font-24-proxima-nova-900 {
+  font-size: vw1(24px);
+  line-height: vw1(28px);
+  margin-bottom: 0;
+  @include fontProximaBlack;
+}
+.font-68-proxima-nova-900 {
+  font-size: vw(68px);
+  line-height: vw(88px);
+  margin-bottom: 0;
+  @include fontProximaBlack;
+}
+.font-72-proxima-nova-900 {
+  // font-size: vw(72px);
+  // line-height: vw(88px);
+  font-size: vw(68px);
+  line-height: vw(84px);
+  margin-bottom: 0;
+  @include fontProximaBlack;
+}
+.font-36-proxima-nova-900 {
+  font-size: vw(36px);
+  line-height: vw(44px);
+  margin-bottom: 0;
+  @include fontProximaBlack;
+}
+/*==============================================
+            Inter
+==============================================*/
+.font-16-inter-400 {
+  font-size: vw(16px);
+  line-height: vw(19px);
+  margin-bottom: 0;
+  @include fontInterRegular400;
+}
+.font-16-inter-700 {
+  font-size: vw(16px);
+  line-height: vw(19px);
+  margin-bottom: 0;
+  @include fontInterBold700;
+}
+
+/*=====================================
+           Segoe-UI
+======================================*/
+// 600
+.font-14-Segoe-UI-600 {
+  font-size: vw(14px);
+  line-height: vw(18px);
+  margin-bottom: 0;
+  font-weight: 600;
+  font-family: "Segoe UI", $font-fallback-1, $font-fallback-2;
+}
+///Pacifico
+.font-63-pacifico-normal {
+  font-size: vw1(63px);
+  line-height: vw1(153px);
+  @include fontpacifico;
+  margin-bottom: 0;
+}
+.font-128-pacifico-normal {
+  font-size: vw1(128px);
+  // line-height: vw1(153px);
+  line-height: vw1(128px);
+  @include fontpacifico;
+  margin-bottom: 0;
+}
+//PermanentMarker
+.font-32-permanentMarker {
+  font-size: vw1(32px);
+  line-height: vw1(38px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+.font-40-permanentMarker {
+  font-size: vw1(40px);
+  line-height: vw1(48px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+.font-48-permanentMarker {
+  font-size: vw1(48px);
+  line-height: vw1(57px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+.font-54-permanentMarker {
+  font-size: vw1(54px);
+  line-height: vw1(64px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+.font-64-permanentMarker {
+  font-size: vw1(64px);
+  line-height: vw1(76px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+.font-72-permanentMarker {
+  font-size: vw1(72px);
+  line-height: vw1(86px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+.font-96-permanentMarker {
+  font-size: vw1(96px);
+  line-height: vw1(115px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+.font-128-permanentMarker {
+  font-size: vw1(128px);
+  line-height: vw1(115px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+//gloria
+.font-24-gloria {
+  font-size: vw1(24px);
+  line-height: vw1(28px);
+  margin-bottom: 0;
+  @include fontgloria;
+}
+//coda
+.font-32-coda {
+  font-size: vw1(32px);
+  line-height: vw1(32px);
+  @include fontCodaExtrabold;
+  margin-bottom: 0;
+}
+.font-40-coda {
+  font-size: vw1(40px);
+  line-height: vw1(48px);
+  @include fontCodaExtrabold;
+  margin-bottom: 0;
+}
+//lato
+.font-24-lato-bold {
+  font-size: vw1(24px);
+  margin-bottom: 0;
+  line-height: vw1(28px);
+  @include fontLatoBold;
+}
+.font-18-lato-regular {
+  font-size: vw1(18px);
+  margin-bottom: 0;
+  line-height: vw1(21px);
+  @include fontLatoRegular;
+}

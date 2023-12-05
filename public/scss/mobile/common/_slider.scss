@@ -1,0 +1,26 @@
+.carousel {
+  button {
+    background: rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin-right: vw(5px);
+    width: mvw(3px);
+    height: mvw(3px);
+    margin-right: mvw(5px);
+  }
+  &__dot--selected {
+    background: $theme-orange-bg !important;
+    opacity: 1 !important;
+    cursor: default !important;
+    width: mvw(8px) !important;
+    height: mvw(8px) !important;
+  }
+  // .slide_dotgroup {
+  //   margin-top: vw(10px);
+  // }
+}
+
+.mobile-home-existing-client-slider-dotgroup {
+  padding-left: mvw(115px);
+}

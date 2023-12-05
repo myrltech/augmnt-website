@@ -1,0 +1,67 @@
+.react-select-common-container {
+  width: vw(150px);
+}
+
+.react-select-common {
+  &__control {
+    min-height: vw(50px) !important;
+    box-shadow: 1px rgba(8, 57, 217, 0) !important;
+    border: 0 !important;
+    background-color: transparent !important;
+  }
+
+  &__indicator-separator {
+    display: none !important;
+  }
+
+  &__indicator {
+    color: #71717a !important;
+    padding: vw(15px) !important;
+
+    svg {
+      width: vw(15px) !important;
+      height: vw(15px) !important;
+    }
+  }
+
+  &__control--is-focused {
+    box-shadow: none !important;
+    box-shadow: none !important;
+  }
+
+  &__single-value {
+    color: #71717a !important;
+    font-size: vw(14px) !important;
+    @include fontLight300;
+    line-height: vw(21px) !important;
+  }
+
+  &__option,
+  &__option--is-focused,
+  &__option--is-selected {
+    font-size: vw(14px) !important;
+    @include fontLight300;
+    line-height: vw(21px) !important;
+  }
+
+  &__option--is-focused,
+  &__option--is-selected {
+    color: #71717a !important;
+    background-color: #f6f6f2 !important;
+  }
+
+  &__option {
+    border-bottom: vw(1px) solid rgba(0, 0, 0, 0.12);
+    padding: vw(10px) vw(15px) !important;
+  }
+
+  &__option:last-child {
+    border-bottom: 0;
+  }
+
+  &__menu {
+    margin-top: vw(5px) !important;
+    box-shadow: vw(3px) vw(3px) vw(6px) rgba(0, 0, 0, 0.16) !important;
+    border: none !important;
+  }
+}

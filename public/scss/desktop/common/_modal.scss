@@ -1,0 +1,120 @@
+/* ===============================================================
+                    
+                        modal
+                    
+================================================================== */
+@import "react-responsive-modal/styles.css";
+
+.customOverlay {
+  // background: $theme-bg-color-overlay;
+  z-index: 0;
+}
+
+.customModal {
+  // -webkit-box-shadow: 0 0 0;
+  // box-shadow: 0 0 0;
+  padding: 0 !important;
+  max-width: 100% !important;
+  // width: vw(986px);
+  width: vw(780px);
+  height: auto;
+  height: fit-content;
+  @include theme-modal-bg;
+  position: relative;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.customCloseButton {
+  display: none !important;
+}
+
+// .customOverlay {
+//   z-index: 9999 !important;
+// }
+
+.closeIconInModal {
+  cursor: pointer;
+
+  &::before,
+  &::after {
+    content: " ";
+    position: absolute;
+    top: vw1(85px);
+    right: vw1(71px);
+    background-color: $theme-modal-close-bg;
+    height: vw(14px);
+    width: vw(4px);
+    z-index: 111 !important;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+.agumntCustomModal {
+  width: vw1(936px);
+  box-shadow: none;
+  // background: rgba(255, 255, 255, 0.5);
+  background: #f6f6f2;
+  border-radius: vw1(4px);
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+
+  .closeIconInModal {
+    cursor: pointer;
+
+    &::before,
+    &::after {
+      top: vw1(70px);
+      right: vw1(68px);
+      background-color: #130f26;
+    }
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.agumntCustomModal {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus {
+    // border: vw(2px) solid inherit;
+    // -webkit-text-fill-color: inherit;
+    // -webkit-box-shadow: vw(1000px) transparent inset;
+    // transition: background-color 0.5s ease-in-out 0s;
+    transition: all 5000s ease-in-out 0s;
+    transition-property: background-color, color;
+    -webkit-box-shadow: 0 0 0 vw(1000px) rgba(255, 255, 255, 0.8) inset;
+    -webkit-text-fill-color: $theme-text-gray-4;
+    border: none;
+  }
+}
+.customModal {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  textarea:-webkit-autofill:focus {
+    // border: vw(2px) solid inherit;
+    // -webkit-text-fill-color: inherit;
+    // -webkit-box-shadow: vw(1000px) transparent inset;
+    // transition: background-color 0.5s ease-in-out 0s;
+    transition: all 5000s ease-in-out 0s;
+    transition-property: background-color, color;
+    -webkit-box-shadow: 0 0 0 vw(1000px) $theme-yellow-input-bg inset;
+    -webkit-text-fill-color: $theme-text-gray-4;
+    border: none;
+  }
+}
