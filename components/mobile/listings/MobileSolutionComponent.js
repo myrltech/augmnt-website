@@ -2,9 +2,9 @@ import React from "react";
 import { Fragment } from "react";
 
 //img
-const logo = "/imgs/desktop/listings/augmnt-agency-logo.svg";
-const underline = "/imgs/desktop/listings/solution-underline.svg";
-const downArrow = "/imgs/desktop/listings/mobile-white-down-arrow.svg";
+const logo = "./imgs/desktop/listings/augmnt-agency-logo.svg";
+const underline = "./imgs/desktop/listings/solution-underline.svg";
+const downArrow = "./imgs/desktop/listings/mobile-white-down-arrow.svg";
 
 //array
 const soultionData = [

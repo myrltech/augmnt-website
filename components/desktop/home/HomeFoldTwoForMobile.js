@@ -3,31 +3,31 @@ import React, { Fragment } from "react";
 const techCommentArray = [
   {
     para: "I’ve been able to find some great projects on Augmnt. I’d recommend every tech agency to join this network.",
-    img: "/imgs/mobile/home-new/profile-img-1.png",
+    img: "./imgs/mobile/home-new/profile-img-1.png",
     founderName: "Rohnit Roy",
     companyName: "Founder At C2B",
   },
   {
     para: "Augmnt is THE community where you need to be if you’re a founder of a tech services firm. Tremendous value - not only have we found great resources for short term contracts but have also found some great projects.",
-    img: "/imgs/mobile/home-new/profile-img-3.png",
+    img: "./imgs/mobile/home-new/profile-img-3.png",
     founderName: "Chandra Prakash",
     companyName: "Founder At C2B",
   },
   {
     para: "Great amounts of value present by being a part of this network. We recently had 12 React developers and no project to place them on, Luckily we found Augmnt.",
-    img: "/imgs/mobile/home-new/profile-img-2.png",
+    img: "./imgs/mobile/home-new/profile-img-2.png",
     founderName: "Karan Bisht",
     companyName: "Founder at Resource Pool",
   },
   {
     para: "We were running short on Golang developers on a critical government project. The Augmnt network helped us by filling the positions in just 4 days. Unbelievable Value",
-    img: "/imgs/mobile/home-new/profile-img-4.png",
+    img: "./imgs/mobile/home-new/profile-img-4.png",
     founderName: "Bhanu Pratap",
     companyName: "Founder at Zuriets",
   },
   {
     para: "If you’re a tech service company, you need to be on Augmnt. Finding resources as well Projects is a breeze. Immense value..",
-    img: "/imgs/mobile/home-new/profile-img-5.png",
+    img: "./imgs/mobile/home-new/profile-img-5.png",
     founderName: "Deepak Thapa",
     companyName: "Founder At Daynil Group",
   },
@@ -64,14 +64,14 @@ export default function HomeFoldTwoForMobile() {
       </h2>
       <div className="home-new-mobile-fold-two-testomonial-img">
         <img
-          src="/imgs/desktop/home-new/home-testomonial-img.png"
+          src="./imgs/desktop/home-new/home-testomonial-img.png"
           alt="testomonial"
           // className="home-new-testomonial-img"
         />
       </div>
       <div className="text-center">
         <img
-          src={"/imgs/desktop/home-new/home-chat-icon.png"}
+          src={"./imgs/desktop/home-new/home-chat-icon.png"}
           alt="chat icon"
           className="home-new-chat-icon"
         />

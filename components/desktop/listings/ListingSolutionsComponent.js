@@ -1,8 +1,8 @@
 import React from "react";
 
 //img
-const downwordArrow = "/imgs/desktop/listings/white-downword-arrow.svg";
-const underline = "/imgs/desktop/listings/solution-underline.svg";
+const downwordArrow = "./imgs/desktop/listings/white-downword-arrow.svg";
+const underline = "./imgs/desktop/listings/solution-underline.svg";
 
 //array
 const dataArray = [

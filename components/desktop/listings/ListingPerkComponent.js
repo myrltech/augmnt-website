@@ -1,16 +1,16 @@
 import React from "react";
 
 //imgs
-const star = "/imgs/desktop/listings/star-icon.svg";
+const star = "./imgs/desktop/listings/star-icon.svg";
 // const spring = "/imgs/desktop/listings/spring-icon.svg";
-const sittingPerson = "/imgs/desktop/listings/siting-person.svg";
+const sittingPerson = "./imgs/desktop/listings/siting-person.svg";
 // const gauge = "/imgs/desktop/listings/gauge-icon.svg";
-const perkOne = "/imgs/desktop/listings/perk-arrow-one.svg";
-const perkTwo = "/imgs/desktop/listings/perk-arrow-two.svg";
-const perkThree = "/imgs/desktop/listings/perk-arrow-three.svg";
-const perkFour = "/imgs/desktop/listings/perk-arrow-four.svg";
-const perkFive = "/imgs/desktop/listings/perk-arrow-five.svg";
-const perkSix = "/imgs/desktop/listings/perk-arrow-six.svg";
+const perkOne = "./imgs/desktop/listings/perk-arrow-one.svg";
+const perkTwo = "./imgs/desktop/listings/perk-arrow-two.svg";
+const perkThree = "./imgs/desktop/listings/perk-arrow-three.svg";
+const perkFour = "./imgs/desktop/listings/perk-arrow-four.svg";
+const perkFive = "./imgs/desktop/listings/perk-arrow-five.svg";
+const perkSix = "./imgs/desktop/listings/perk-arrow-six.svg";
 
 //array
 const dataArrayOne = [

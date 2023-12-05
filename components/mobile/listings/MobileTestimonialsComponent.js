@@ -7,8 +7,8 @@ import { memberData } from "../../../store/memberData";
 //img
 // const profile = "/imgs/desktop/listings/dummy-profile.svg";
 // const linkedin = "/imgs/desktop/listings/linkedin-icon.svg";
-const gauge = "/imgs/desktop/listings/gauge-icon.svg";
-const quote = "/imgs/desktop/listings/quote-icon.svg";
+const gauge = "./imgs/desktop/listings/gauge-icon.svg";
+const quote = "./imgs/desktop/listings/quote-icon.svg";
 
 const MobileTestimonialsComponent = () => {
   const settings = {

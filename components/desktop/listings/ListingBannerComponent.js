@@ -1,12 +1,12 @@
 import React from "react";
 // imgs
 const logo = "./imgs/desktop/listings/augmnt-agency-main-logo.svg";
-const upArrow = "/imgs/desktop/listings/upword-arrow.svg";
-const downArrow = "/imgs/desktop/listings/down-arrow.svg";
-const rightSpringArrow = "/imgs/desktop/listings/right-spring-arrow-icon.svg";
-const rightArrow = "/imgs/desktop/listings/right-arrow-icon.svg";
-const personIcon = "/imgs/desktop/listings/running-person.svg";
-const underline = "/imgs/desktop/listings/banner-underline.svg";
+const upArrow = "./imgs/desktop/listings/upword-arrow.svg";
+const downArrow = "./imgs/desktop/listings/down-arrow.svg";
+const rightSpringArrow = "./imgs/desktop/listings/right-spring-arrow-icon.svg";
+const rightArrow = "./imgs/desktop/listings/right-arrow-icon.svg";
+const personIcon = "./imgs/desktop/listings/running-person.svg";
+const underline = "./imgs/desktop/listings/banner-underline.svg";
 
 const ListingBannerComponent = () => {
   return (
@@ -66,14 +66,14 @@ const ListingBannerComponent = () => {
         <div className="d-flex align-items-center relative pl-72">
           <h5 className="font-32-coda ">On Slack </h5>
           <img
-            src={"/imgs/desktop/home-new/home-hash-icon.png"}
+            src={"./imgs/desktop/home-new/home-hash-icon.png"}
             alt="hash"
             className="banner-hash-icon"
           />
           {/* banner img */}
           <div className="banner-group-img">
             <img
-              src={"/imgs/desktop/listings/banner-img.svg"}
+              src={"./imgs/desktop/listings/banner-img.svg"}
               alt="fold one text block"
               // className="home-new-fold-one"
             />

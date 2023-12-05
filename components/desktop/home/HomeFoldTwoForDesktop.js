@@ -1,11 +1,11 @@
 import React from "react";
 
 //data
-const img1 = "/imgs/desktop/home-new/profile-img-1.png";
-const img2 = "/imgs/desktop/home-new/profile-img-2.png";
-const img3 = "/imgs/desktop/home-new/profile-img-3.png";
-const img4 = "/imgs/desktop/home-new/profile-img-4.png";
-const img5 = "/imgs/desktop/home-new/profile-img-5.png";
+const img1 = "./imgs/desktop/home-new/profile-img-1.png";
+const img2 = "./imgs/desktop/home-new/profile-img-2.png";
+const img3 = "./imgs/desktop/home-new/profile-img-3.png";
+const img4 = "./imgs/desktop/home-new/profile-img-4.png";
+const img5 = "./imgs/desktop/home-new/profile-img-5.png";
 
 const paraForCard1 =
   "I’ve been able to find some great projects on Augmnt. I’d recommend every tech agency to join this network.";

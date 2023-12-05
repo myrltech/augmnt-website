@@ -1,7 +1,7 @@
 import React from "react";
 import { memberData } from "../../../store/memberData";
 
-const quote = "/imgs/desktop/listings/quote-icon.svg";
+const quote = "./imgs/desktop/listings/quote-icon.svg";
 
 //img
 

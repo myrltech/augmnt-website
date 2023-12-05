@@ -1,11 +1,11 @@
 import React from "react";
 
 // imgs
-const logo = "/imgs/desktop/listings/augmnt-agency-main-logo.svg";
-const banner = "/imgs/desktop/listings/mobile-banner-img.svg";
-const underline = "/imgs/desktop/listings/banner-underline.svg";
-const sprialArrow = "/imgs/desktop/listings/mobile-down-spring-arrow.svg";
-const downArrow = "/imgs/desktop/listings/mobile-down-arrow.svg";
+const logo = "./imgs/desktop/listings/augmnt-agency-main-logo.svg";
+const banner = "./imgs/desktop/listings/mobile-banner-img.svg";
+const underline = "./imgs/desktop/listings/banner-underline.svg";
+const sprialArrow = "./imgs/desktop/listings/mobile-down-spring-arrow.svg";
+const downArrow = "./imgs/desktop/listings/mobile-down-arrow.svg";
 
 const MobileBannerComponent = () => {
   return (

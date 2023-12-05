@@ -1,9 +1,9 @@
 import React from "react";
 
-const downwordArrow = "/imgs/desktop/listings/down-arrow.svg";
-const star = "/imgs/desktop/listings/star-icon.svg";
-const coffee = "/imgs/desktop/listings/coffee.svg";
-const money = "/imgs/desktop/listings/money.svg";
+const downwordArrow = "./imgs/desktop/listings/down-arrow.svg";
+const star = "./imgs/desktop/listings/star-icon.svg";
+const coffee = "./imgs/desktop/listings/coffee.svg";
+const money = "./imgs/desktop/listings/money.svg";
 
 const ListingJoinComponent = () => {
   return (

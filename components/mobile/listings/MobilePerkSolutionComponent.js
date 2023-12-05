@@ -12,8 +12,8 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 
 //imgs
-const sittingPerson = "/imgs/desktop/listings/siting-person.svg";
-const star = "/imgs/desktop/listings/star-icon.svg";
+const sittingPerson = "./imgs/desktop/listings/siting-person.svg";
+const star = "./imgs/desktop/listings/star-icon.svg";
 
 //data
 const perkData = [

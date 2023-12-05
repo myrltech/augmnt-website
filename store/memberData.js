@@ -1,5 +1,5 @@
-const imgPath = "/imgs/desktop/listings/";
-const linkedin = "/imgs/desktop/listings/linkedin-icon.svg";
+const imgPath = "./imgs/desktop/listings/";
+const linkedin = "./imgs/desktop/listings/linkedin-icon.svg";
 
 export const memberData = [
   {
