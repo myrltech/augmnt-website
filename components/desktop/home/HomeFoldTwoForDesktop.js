@@ -97,7 +97,7 @@ export default function HomeFoldTwoForDesktop() {
       <div className="d-flex justify-content-center home-new-testomonial-row-2">
         <div className="home-new-chat-icon-section">
           <img
-            src={"/imgs/desktop/home-new/home-chat-icon.png"}
+            src={"./imgs/desktop/home-new/home-chat-icon.png"}
             alt="chat icon"
             className="home-new-chat-icon"
           />
@@ -160,7 +160,7 @@ export default function HomeFoldTwoForDesktop() {
     >
       <div className="text-center">
         <img
-          src="/imgs/desktop/home-new/home-testomonial-img.png"
+          src="./imgs/desktop/home-new/home-testomonial-img.png"
           alt="testomonial"
           className="home-new-testomonial-img"
         />

@@ -11,7 +11,7 @@ export default function HomeMain() {
     <>
       <div className="home-new-title-logo">
         <img
-          src={"/imgs/desktop/logo/augmnt-logo.svg"}
+          src={"./imgs/desktop/logo/augmnt-logo.svg"}
           alt={"augmnet"}
           className={"home-new-augmnt-logo"}
         />

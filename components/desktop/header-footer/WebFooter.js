@@ -7,22 +7,22 @@ import React, { Fragment, useEffect } from "react";
 ========================================*/
 const companyAraay = [
   {
-    imgPath: "/imgs/desktop/footer/fast-company.svg",
+    imgPath: "./imgs/desktop/footer/fast-company.svg",
     imgName: "fast company",
     imgClass: "footer-fast-company",
   },
   {
-    imgPath: "/imgs/desktop/footer/inc.svg",
+    imgPath: "./imgs/desktop/footer/inc.svg",
     imgName: "inc",
     imgClass: "footer-inc-logo",
   },
   {
-    imgPath: "/imgs/desktop/footer/entrepreneur.svg",
+    imgPath: "./imgs/desktop/footer/entrepreneur.svg",
     imgName: "footer entrepreneur logo",
     imgClass: "footer-entrepreneur-logo",
   },
   {
-    imgPath: "/imgs/desktop/footer/chicago-tribune.svg",
+    imgPath: "./imgs/desktop/footer/chicago-tribune.svg",
     imgName: "footer chicago tribune logo",
     imgClass: "footer-chicago-tribune-logo",
   },
@@ -94,7 +94,7 @@ export default function WebFooter({ activeMenu }) {
           <Link href="/">
             <a>
               <img
-                src={"/imgs/desktop/logo/augmnt-white-logo.svg"}
+                src={"./imgs/desktop/logo/augmnt-white-logo.svg"}
                 alt="augmnt"
               />
             </a>
@@ -209,17 +209,17 @@ export default function WebFooter({ activeMenu }) {
         {/**================ terms and privacy ===================== */}
         <div className="d-flex align-items-center flex-nowrap web-footer-left-bottom-div">
           <img
-            src={"/imgs/desktop/icons/white-m-icon.svg"}
+            src={"./imgs/desktop/icons/white-m-icon.svg"}
             alt="m"
             className="web-footer-white-m-icon"
           />
           <img
-            src={"/imgs/desktop/icons/white-hand-icon.svg"}
+            src={"./imgs/desktop/icons/white-hand-icon.svg"}
             alt="hand"
             className="web-footer-white-hand-icon"
           />
           <img
-            src={"/imgs/desktop/icons/white-in-icon.svg"}
+            src={"./imgs/desktop/icons/white-in-icon.svg"}
             alt="in"
             className="web-footer-white-in-icon"
           />

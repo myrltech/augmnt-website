@@ -36,7 +36,7 @@ export default function HomeFoldOne() {
             <div className="col-6 p-0">
               <div className="d-flex align-items-start home-new-count-text-card">
                 <img
-                  src="/imgs/desktop/home-new/home-augmnt-logo.png"
+                  src="./imgs/desktop/home-new/home-augmnt-logo.png"
                   alt="augmnt"
                   className="home-new-augmnt-orange-logo d-none d-md-block"
                 />
@@ -69,7 +69,7 @@ export default function HomeFoldOne() {
             Slack{" "}
           </span>
           <img
-            src={"/imgs/desktop/home-new/home-hash-icon.png"}
+            src={"./imgs/desktop/home-new/home-hash-icon.png"}
             alt="hash"
             className="home-new-hash-icon"
           />
@@ -98,13 +98,13 @@ export default function HomeFoldOne() {
       </div>
       <div className="text-right home-fold-one-img-section d-none d-md-block">
         <img
-          src={"/imgs/desktop/home-new/home-fold-one-bg-img.png"}
+          src={"./imgs/desktop/home-new/home-fold-one-bg-img.png"}
           alt="fold one"
           className="home-new-fold-one"
         />
         <div className="home-fold-one-img-section-text-img">
           <img
-            src={"/imgs/desktop/home-new/home-fold-one-text-block-img.png"}
+            src={"./imgs/desktop/home-new/home-fold-one-text-block-img.png"}
             alt="fold one text block"
             // className="home-new-fold-one"
           />
@@ -112,7 +112,7 @@ export default function HomeFoldOne() {
       </div>
       <div className="mobile-text-left d-block d-md-none">
         <img
-          src={"/imgs/mobile/home-new/home-mobile-fold-one.png"}
+          src={"./imgs/mobile/home-new/home-mobile-fold-one.png"}
           alt="fold one"
           className="home-new-fold-one"
         />

@@ -64,7 +64,7 @@ export default function HomeFoldThree({ id }) {
         </div>
         <div className="d-none d-md-block">
           <img
-            src={"/imgs/desktop/home-new/home-fold-three-block-one-img.png"}
+            src={"./imgs/desktop/home-new/home-fold-three-block-one-img.png"}
             alt=" Birds of a feather slack together "
             className="home-new-fold-three-img-one"
           />
