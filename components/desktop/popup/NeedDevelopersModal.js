@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-responsive-modal";
+import emailjs from "@emailjs/browser";
 
 export default function NeedDevelopersModal() {
   const [open, setOpen] = useState(false);
@@ -33,7 +34,32 @@ export default function NeedDevelopersModal() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(values);
-    setopenThankyou(!openThankyou);
+
+    const templateParams = {
+      name: values.yourName,
+      email: values.companyEmail,
+      company: values.company,
+      technology: values.technology,
+      from_name: values.yourName,
+    };
+
+    emailjs
+      .send(
+        "service_tafkv2l",
+        "template_fx7s46l",
+        templateParams,
+        "I80JpURGh2nDuAf24"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setopenThankyou(!openThankyou);
+        },
+        (err) => {
+          console.log("FAILED...", err);
+          alert("Something went wrong");
+        }
+      );
   };
 
   const renderForm = () => {
