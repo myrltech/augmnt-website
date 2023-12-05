@@ -73,7 +73,7 @@ const MobileSolutionComponent = () => {
       <img src={logo} alt="logo" className="solution-logo-img" />
       <div className="d-flex justify-content-end align-items-start mobile-solution-slack-text">
         <img
-          src={"/imgs/desktop/home-new/home-hash-icon.png"}
+          src={"./imgs/desktop/home-new/home-hash-icon.png"}
           alt="hash"
           className="solution-hash-icon"
         />

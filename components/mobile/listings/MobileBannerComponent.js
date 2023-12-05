@@ -35,7 +35,7 @@ const MobileBannerComponent = () => {
         </ul>
         <h5 className="mobile-banner-slack-section text-color-pure-black">
           <img
-            src={"/imgs/desktop/home-new/home-hash-icon.png"}
+            src={"./imgs/desktop/home-new/home-hash-icon.png"}
             alt="hash"
             className="banner-hash-icon"
           />
