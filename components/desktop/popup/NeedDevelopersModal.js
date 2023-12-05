@@ -38,8 +38,8 @@ export default function NeedDevelopersModal() {
     const templateParams = {
       name: values.yourName,
       email: values.companyEmail,
-      company: values.company,
-      technology: values.technology,
+      company: values.companyName,
+      technology: values.techonology,
       from_name: values.yourName,
     };
 
