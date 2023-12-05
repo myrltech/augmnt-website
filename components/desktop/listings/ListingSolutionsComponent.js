@@ -46,9 +46,9 @@ const dataArray = [
 
 //imgs
 const announcementPerson =
-  "/imgs/desktop/listings/announcement-person-icon.svg";
+  "./imgs/desktop/listings/announcement-person-icon.svg";
 
-const augmntLogo = "/imgs/desktop/listings/augmnt-agency-logo.svg";
+const augmntLogo = "./imgs/desktop/listings/augmnt-agency-logo.svg";
 
 const ListingSolutionsComponent = () => {
   return (
@@ -86,7 +86,7 @@ const ListingSolutionsComponent = () => {
         <div>
           <div className="d-flex align-items-start pt-40 ">
             <img
-              src={"/imgs/desktop/home-new/home-hash-icon.png"}
+              src={"./imgs/desktop/home-new/home-hash-icon.png"}
               alt="hash"
               className="solution-hash-icon"
             />
