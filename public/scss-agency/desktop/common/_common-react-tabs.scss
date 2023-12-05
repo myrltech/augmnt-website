@@ -1,0 +1,88 @@
+.common-react-tabs {
+  .react-tabs__tab:focus {
+    box-shadow: none;
+    border-color: none !important;
+  }
+
+  .react-tabs__tab:focus:after {
+    display: none;
+  }
+
+  .react-tabs__tab {
+    color: #363636;
+    font-size: vw(24px);
+    line-height: vw(28px);
+    margin-bottom: 0;
+    @include fontPoiretOne400;
+    padding: 0 vw(28px) vw(13px) vw(24px);
+
+    b {
+      display: none;
+    }
+  }
+
+  .react-tabs__tab--selected {
+    color: #363636;
+    background: transparent;
+    border: none;
+
+    b {
+      display: inline-block;
+      position: absolute;
+      left: vw(3px);
+      top: vw(3px);
+    }
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: vw(8px);
+      border-radius: vw(10px);
+      background: linear-gradient(
+        76.39deg,
+        #ff3e00 59.75%,
+        rgba(255, 62, 0, 0) 586.28%
+      );
+      display: block;
+      margin-top: vw(8px);
+    }
+  }
+
+  .react-tabs__tab-list {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-left: vw(35px);
+  }
+
+  .react-tabs__tab-panel {
+    padding: vw(35px) 0;
+    background: transparent;
+    border: none;
+  }
+}
+
+.common-react-tabs--blogs {
+  .react-tabs__tab-list {
+    padding-left: vw(658px);
+  }
+
+  .react-tabs__tab {
+    padding-bottom: 0;
+  }
+
+  .react-tabs__tab-panel {
+    padding-top: 0;
+  }
+
+  .react-tabs__tab--selected {
+    color: #ff4509;
+  }
+
+  .react-tabs__tab--selected::after {
+    width: vw(6px);
+    height: vw(6px);
+    border-radius: vw(8px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

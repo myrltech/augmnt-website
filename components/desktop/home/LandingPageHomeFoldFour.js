@@ -13,7 +13,7 @@ export default function LandingPageHomeFoldFour() {
     <div className="home-tech-logo-div">
       <h4 className="text-center home-tech-logo-title font-48-poiret-one-400">
         {/* Specialized Technologies */}
-        Find Partners Specizling In These Technologies
+        Find Partners Specializing In These Technologies
       </h4>
       {/*==============================================================
        

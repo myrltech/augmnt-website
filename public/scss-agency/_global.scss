@@ -1,0 +1,230 @@
+/* ===============================================================
+                    
+                    Global reset and css
+
+================================================================== */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: inherit !important;
+  color: inherit !important;
+}
+
+button {
+  white-space: nowrap;
+
+  &:disabled {
+    opacity: 0.7;
+  }
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 0 !important;
+}
+
+.outline-0 {
+  outline: 0;
+}
+
+// .rc-dropdown-menu > .rc-dropdown-menu-item-selected:after {
+//   display: none;
+// }
+
+// .rc-dropdown-menu > .rc-dropdown-menu-item:hover {
+//   cursor: pointer;
+// }
+
+// .rc-dropdown-menu .rc-dropdown-menu-item-divider:last-child {
+//   display: none !important;
+// }
+
+// button,
+// input,
+// textarea {
+//   color: $theme-text-color-1;
+//   background-color: $theme-bg-color-white-01;
+// }
+
+// to keep width 100% when modal opens
+html {
+  width: 100% !important;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  font-size: vw(16px) !important;
+  color: $theme-text-color-1 !important;
+  background-color: $theme-bg-main !important;
+  //   font-family: $font-family-regular-NunitoSans-Regular !important;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  width: max-content !important;
+}
+
+.row > * {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 0 !important;
+}
+
+// /* autocomplete chrome */
+// input:-webkit-autofill,
+// input:-webkit-autofill:hover,
+// input:-webkit-autofill:focus,
+// textarea:-webkit-autofill,
+// textarea:-webkit-autofill:hover,
+// textarea:-webkit-autofill:focus {
+//   // border: vw(2px) solid inherit;
+//   // -webkit-text-fill-color: inherit;
+//   // -webkit-box-shadow: vw(1000px) transparent inset;
+//   // transition: background-color 0.5s ease-in-out 0s;
+//   transition: all 5000s ease-in-out 0s;
+//   transition-property: background-color, color;
+//   -webkit-box-shadow: 0 0 0 vw(1000px) #1f1f1f inset;
+//   -webkit-text-fill-color: #fff;
+//   border: none;
+// }
+
+// scrollbar chrome
+*::-webkit-scrollbar {
+  height: vw(11px);
+  width: vw(11px);
+}
+
+*::-webkit-scrollbar-track,
+*::-ms-scrollbar-track-color {
+  //   background: #d9d1f9;
+  background: transparent;
+  border-radius: vw(25px);
+  margin: vw(10px);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: vw(25px);
+  //   background: $theme-scrollbar-thumb-bg;
+
+  //   &:hover {
+  //     background: $theme-scrollbar-thumb-bg;
+  //   }
+}
+
+body {
+  &::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+  }
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+*::placeholder {
+  color: #848484;
+  @include fontRegular400;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.opacity-0 {
+  opacity: 0;
+  user-select: none;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

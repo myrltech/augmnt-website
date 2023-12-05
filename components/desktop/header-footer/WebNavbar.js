@@ -52,16 +52,16 @@ export default function WebNavbar({ activeIndex }) {
               </Link>
             </li>
             <li className="font-14-proxima-nova-400 ">
-              <Link href="/">
+              <Link href="/agency">
                 <a>
                   <span
                     className={
-                      activeIndex === "tech-agencies"
+                      activeIndex === "agency"
                         ? "cursor-default web-navbar-menu--active"
                         : "cursor-pointer"
                     }
                   >
-                    Tech Agencies
+                    Agency
                   </span>
                 </a>
               </Link>

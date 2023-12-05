@@ -30,3 +30,27 @@
   @import "../public/scss/mobile/ourProcess/index";
   @import "../public/scss/mobile/forget-password/index";
 }
+
+//  AGENCY PAGE SCSS
+
+@import "../public/scss-agency/function";
+@import "../public/scss-agency/mixin";
+@import "../public/scss-agency/typography";
+@import "../public/scss-agency/global";
+
+//-- desktop scss files --//
+@media screen and (min-width: 768px) {
+  @import "../public/scss-agency/desktop/home/index";
+  @import "../public/scss-agency/desktop/header-footer/index";
+  @import "../public/scss-agency/desktop/common/index";
+  @import "../public/scss-agency/desktop/home-new/home";
+  @import "../public/scss-agency/desktop/listings/listing";
+}
+//-- mobile scss files --//
+@media screen and (max-width: 767px) {
+  @import "../public/scss-agency/mobile/home/index";
+  @import "../public/scss-agency/mobile/common/index";
+  @import "../public/scss-agency/mobile/header-footer/index";
+  @import "../public/scss-agency/mobile/home-new/home-new";
+  @import "../public/scss-agency/mobile/listing/listing";
+}

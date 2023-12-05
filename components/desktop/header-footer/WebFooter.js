@@ -147,8 +147,8 @@ export default function WebFooter({ activeMenu }) {
                 : "font-24-proxima-nova-400 pt-20"
             }
           >
-            <Link href="/">
-              <a>tech agencies</a>
+            <Link href="/agency">
+              <a>agency</a>
               {/* <a>about us</a> */}
             </Link>
           </li>{" "}
@@ -216,7 +216,7 @@ export default function WebFooter({ activeMenu }) {
             <div className="web-footer-btn text-center">Learn More</div>
           </Link>{" "}
           <h5 className="text-right font-16-proxima-nova-700 web-footer-myrl-tech-text">
-            <span>©</span> 2022 Myrl tech
+            <span>©</span> 2023 Myrl tech
           </h5>
         </div>
       </div>{" "}

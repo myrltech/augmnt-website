@@ -1,0 +1,143 @@
+.web-footer-section {
+  background: $theme-black-bg;
+  padding: vw1(74px) 0 vw1(57px) vw(56px);
+  color: $theme-text-white;
+}
+.web-footer-augmnt-white-logo {
+  width: vw(143px);
+  height: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.web-footer-home-text {
+  width: fit-content;
+  border-bottom: vw1(1px) solid $theme-border-white;
+}
+.web-footer-left-bottom-div {
+  padding-top: vw1(90px);
+}
+.web-footer-white-m-icon {
+  width: vw1(20px);
+  height: auto;
+  margin-right: vw1(25px);
+}
+.web-footer-white-hand-icon {
+  width: vw1(11px);
+  height: auto;
+  margin-right: vw1(25px);
+}
+.web-footer-white-in-icon {
+  width: vw1(17px);
+  height: auto;
+  margin-right: vw1(42px);
+}
+.web-footer-terms-text,
+.web-footer-privacy-text {
+  color: $theme-text-white-5;
+}
+.web-footer-terms-text {
+  padding-right: vw1(33px);
+}
+.web-footer-right-section {
+  // padding-left: vw(112px);
+  padding-left: vw(50px);
+}
+.footer-fast-company {
+  width: vw1(140px);
+  height: auto;
+  margin-right: vw1(14px);
+}
+.footer-inc-logo {
+  width: vw1(60px);
+  height: auto;
+}
+.footer-entrepreneur-logo {
+  width: vw1(160px);
+  height: auto;
+  margin-top: vw1(3px);
+  margin-left: vw1(10px);
+}
+.footer-chicago-tribune-logo {
+  width: vw1(139px);
+  height: auto;
+  margin-left: vw1(14px);
+}
+.web-footer-as-seen-text {
+  color: $theme-text-white-87;
+}
+.web-footer-btn {
+  width: vw1(208px);
+  height: vw(55px);
+  line-height: vw(55px);
+  padding: 0;
+  border: none;
+  margin-top: vw1(30px);
+  // margin-bottom: vw(58px);
+  margin-bottom: vw(30px);
+  @include theme-mixin-orange-btn;
+  @include fontBold700;
+}
+.web-footer-myrl-tech-text {
+  color: $theme-text-white-5;
+
+  span {
+    color: $theme-text-white-56;
+  }
+}
+.web-footer-right-middle-section {
+  padding-top: vw1(28px);
+  padding-right: vw1(163px);
+}
+.web-footer-right-section {
+  width: 62%;
+}
+.web-footer-left-section {
+  // width: 38%;
+  width: 33%;
+  margin-right: vw(70px);
+}
+.web-footer-augmnt-list {
+  li {
+    list-style: none;
+  }
+}
+//new small scale
+.web-footer-right-middle-section {
+  .font-36-poiret-one-400 {
+    font-size: vw1(36px);
+    line-height: vw1(42px);
+  }
+
+  .font-36-proxima-nova-700 {
+    font-size: vw1(36px);
+    line-height: vw1(42px);
+  }
+
+  .font-14-nunito-sans-400 {
+    font-size: vw1(14px);
+    line-height: vw1(19px);
+  }
+}
+.web-footer-augmnt-list {
+  .font-24-proxima-nova-400 {
+    font-size: vw1(24px);
+    line-height: vw1(29px);
+  }
+  .pt-60 {
+    padding-top: vw1(60px);
+  }
+}
+.web-footer-augmnt-list {
+  .font-16-proxima-nova-700 {
+    font-size: vw1(16px);
+    line-height: vw1(19px);
+  }
+}
+
+.font-16-proxima-nova-700.web-footer-myrl-tech-text {
+  font-size: vw1(16px);
+  line-height: vw1(19px);
+}

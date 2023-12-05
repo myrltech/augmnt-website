@@ -1,0 +1,130 @@
+.m-footer {
+  background: $theme-black-bg;
+  padding: mvw(39px) mvw(10px) mvw(13px) mvw(30px);
+  color: $theme-text-white;
+}
+.m-footer-companies {
+  padding-right: mvw(20px);
+  padding-top: mvw(12px);
+}
+.web-footer-augmnt-white-logo {
+  width: mvw(85px);
+  height: auto;
+  margin-bottom: mvw(17px);
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.m-footer-fold-1 {
+  margin-bottom: mvw(35px);
+
+  .font-36-poiret-one-400 {
+    font-size: mvw(18px);
+    line-height: mvw(21px);
+    margin-bottom: mvw(6px);
+  }
+  .font-36-proxima-nova-700 {
+    font-size: mvw(18px);
+    line-height: mvw(21px);
+  }
+}
+.web-footer-white-m-icon {
+  width: mvw(18px);
+  height: auto;
+  margin-right: mvw(25px);
+}
+.web-footer-white-hand-icon {
+  width: mvw(12px);
+  height: auto;
+  margin-right: mvw(25px);
+}
+.web-footer-white-in-icon {
+  width: mvw(16px);
+  height: auto;
+}
+.web-footer-terms-text,
+.web-footer-privacy-text {
+  color: $theme-text-white-5;
+}
+.web-footer-terms-text {
+  padding-right: mvwDivide(33px);
+}
+.footer-inc-logo {
+  width: mvw(34px);
+  height: auto;
+  margin-top: mvw(16px);
+}
+.footer-onevest-logo {
+  width: mvw(41px);
+  height: auto;
+  margin-left: mvw(11px);
+}
+.footer-chicago-tribune-logo {
+  width: mvw(74px);
+  height: auto;
+  margin-top: mvw(16px);
+  margin-left: mvw(11px);
+}
+.footer-fast-company {
+  width: mvw(74px);
+  height: auto;
+  margin-right: mvw(27px);
+  margin-top: mvw(16px);
+}
+.footer-entrepreneur-logo {
+  width: mvw(91px);
+  height: auto;
+  margin-top: mvw(16px);
+  margin-right: mvw(5px);
+}
+.web-footer-as-seen-text {
+  color: $theme-text-white-87;
+  text-align: center;
+  margin-bottom: mvw(15px);
+  font-size: mvw(9px);
+}
+.web-footer-btn {
+  width: mvw(105px);
+  height: mvw(55px);
+  line-height: mvw(53px);
+  padding: 0;
+  border: none;
+  @include theme-mixin-orange-btn;
+  font-size: mvw(14px);
+  border-radius: mvw(11px);
+  @include fontBold700;
+}
+.web-footer-myrl-tech-text {
+  color: $theme-text-white-5;
+  font-size: mvw(10px);
+  line-height: mvw(12px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+
+  span {
+    color: $theme-text-white-56;
+  }
+}
+.web-footer-augmnt-list-row {
+  column-gap: mvw(40px);
+  margin-bottom: mvw(12px);
+}
+.web-footer-augmnt-list {
+  list-style-type: none;
+
+  li {
+    width: fit-content;
+    line-height: mvw(20px);
+    margin-bottom: mvw(12px);
+    text-transform: lowercase;
+  }
+}
+.web-footer-home-text {
+  border-bottom: mvwDivide(1px) solid $theme-border-white;
+}
+.m-footer-social-media {
+  margin-bottom: mvw(53px);
+  margin-right: mvw(30px);
+}

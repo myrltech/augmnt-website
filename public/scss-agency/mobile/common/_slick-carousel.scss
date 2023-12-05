@@ -1,0 +1,41 @@
+// widget list slider
+.slickCarousel {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  .slick-prev:before,
+  .slick-next:before {
+    display: none;
+    // content: "" !important;
+    // width: mvwDivide(15px) !important;
+    // height: mvwDivide(15px) !important;
+    // border: mvwDivide(2px) solid rgba(0, 0, 0, 0.25) !important;
+    // display: block !important;
+    // border-top: 0 !important;
+    // border-right: 0 !important;
+  }
+
+  // .slick-prev {
+  //   left: mvwDivide(-20px) !important;
+  // }
+  // .slick-prev,
+  // .slick-next {
+  //   top: 50% !important;
+  // }
+  // .slick-prev:before {
+  //   transform: rotate(45deg);
+  // }
+  // .slick-next:before {
+  //   transform: rotate(225deg);
+  // }
+
+  // .slick-prev:before,
+  // .slick-next:before {
+  //   color: #707070 !important;
+  // }
+
+  // .slick-prev:before,
+  // .slick-next:before {
+  //   font-size: mvwDivide(30px) !important;
+  // }
+}

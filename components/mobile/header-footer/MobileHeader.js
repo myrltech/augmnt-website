@@ -16,6 +16,10 @@ const listMenu = [
     name: "Listings",
   },
   {
+    link: "/agency",
+    name: "Agency",
+  },
+  {
     link: "/blogs",
     name: "Blogs",
   },

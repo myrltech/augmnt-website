@@ -40,7 +40,7 @@ const menu1 = [
   { title: "testimonials", linkPath: "/", activeMenu: "testimonials" },
   { title: "blogs", linkPath: "/blogs", activeMenu: "blogs" },
   // { title: "about us", linkPath: "/about-us", activeMenu: "aboutUs" },
-  { title: "tech agencies", linkPath: "/", activeMenu: "techAgencies" },
+  { title: "agency", linkPath: "/agency", activeMenu: "Agency" },
 ];
 
 const menu2 = [
@@ -162,7 +162,7 @@ export default function MobileFooter({ activeIndex }) {
       </div>
 
       <h5 className="text-center web-footer-myrl-tech-text">
-        <span>©</span> 2022 Myrl tech
+        <span>©</span> 2023 Myrl tech
       </h5>
     </footer>
   );

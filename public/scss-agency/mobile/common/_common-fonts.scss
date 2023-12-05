@@ -1,0 +1,266 @@
+.mobile-font-10-nunito-sans-300 {
+  font-size: mvw(10px);
+  line-height: mvw(14px);
+  margin-bottom: 0;
+  @include fontLight300;
+}
+.mobile-font-10-nunito-sans-400 {
+  font-size: mvw(10px);
+  line-height: mvw(14px);
+  margin-bottom: 0;
+  @include fontRegular400;
+}
+.mobile-font-12-nunito-sans-400 {
+  font-size: mvw(12px);
+  line-height: mvw(16px);
+  margin-bottom: 0;
+  @include fontRegular400;
+}
+.mobile-font-13-nunito-sans-400 {
+  font-size: mvw(13px);
+  line-height: mvw(17px);
+  margin-bottom: 0;
+  @include fontRegular400;
+}
+.mobile-font-14-nunito-sans-400 {
+  font-size: mvw(14px);
+  line-height: mvw(19px);
+  margin-bottom: 0;
+  @include fontRegular400;
+}
+.mobile-font-14-nunito-sans-800 {
+  font-size: mvw(14px);
+  line-height: mvw(19px);
+  margin-bottom: 0;
+  @include fontExtraBold800;
+}
+
+/*=====================================
+           poiretOne
+======================================*/
+.mobile-font-12-poiret-one-400 {
+  font-size: mvw(12px);
+  line-height: mvw(14px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+.mobile-font-24-poiret-one-400 {
+  font-size: mvw(24px);
+  line-height: mvw(28px);
+  margin-bottom: 0;
+  @include fontPoiretOne400;
+}
+
+/*=====================================
+          proxima-nova
+======================================*/
+.mobile-font-13-proxima-nova-250 {
+  font-size: mvw(13px);
+  line-height: mvw(16px);
+  margin-bottom: 0;
+  @include fontProximaLight;
+}
+.mobile-font-10-proxima-nova-400 {
+  font-size: mvw(10px);
+  line-height: mvw(12px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.mobile-font-14-proxima-nova-400 {
+  font-size: mvw(14px);
+  line-height: mvw(16px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.mobile-font-18-proxima-nova-400 {
+  font-size: mvw(18px);
+  line-height: mvw(21px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.mobile-font-24-proxima-nova-400 {
+  font-size: mvw(24px);
+  line-height: mvw(28px);
+  margin-bottom: 0;
+  @include fontProximaRegular;
+}
+.mobile-font-10-proxima-nova-700 {
+  font-size: mvw(10px);
+  line-height: mvw(12px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.mobile-font-14-proxima-nova-700 {
+  font-size: mvw(14px);
+  line-height: mvw(17px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.mobile-font-16-proxima-nova-700 {
+  font-size: mvw(16px);
+  line-height: mvw(19px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.mobile-font-18-proxima-nova-700 {
+  font-size: mvw(18px);
+  line-height: mvw(21px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.mobile-font-24-proxima-nova-700 {
+  font-size: mvw(24px);
+  line-height: mvw(28px);
+  margin-bottom: 0;
+  @include fontProximaBold;
+}
+.mobile-font-14-proxima-nova-800 {
+  font-size: mvw(14px);
+  line-height: mvw(16px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-20-proxima-800 {
+  font-size: mvw(20px);
+  line-height: mvw(24px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-40-proxima-800 {
+  font-size: mvw(40px);
+  line-height: mvw(32px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-64-proxima-800 {
+  font-size: mvw(64px);
+  line-height: mvw(52px);
+  margin-bottom: 0;
+  @include fontProximaExtraBold;
+}
+.mobile-font-24-proxima-nova-900 {
+  font-size: mvw(24px);
+  line-height: mvw(28px);
+  margin-bottom: 0;
+  @include fontProximaBlack;
+}
+.mobile-font-44-proxima-nova-900 {
+  font-size: mvw(44px);
+  line-height: mvw(52px);
+  margin-bottom: 0;
+  @include fontProximaBlack;
+}
+//gloria
+.mobile-font-14-gloria-regular {
+  font-size: mvw(14px);
+  line-height: mvw(20px);
+  margin-bottom: 0;
+  @include fontgloria;
+}
+.mobile-font-16-gloria-regular {
+  font-size: mvw(16px);
+  line-height: mvw(20px);
+  margin-bottom: 0;
+  @include fontgloria;
+}
+
+.mobile-font-18-gloria-regular {
+  font-size: mvw(18px);
+  line-height: mvw(32px);
+  margin-bottom: 0;
+  @include fontgloria;
+}
+
+.mobile-font-26-gloria-regular {
+  font-size: mvw(26px);
+  line-height: mvw(27px);
+  margin-bottom: 0;
+  @include fontgloria;
+}
+.mobile-font-28-gloria-regular {
+  font-size: mvw(28px);
+  line-height: mvw(29px);
+  margin-bottom: 0;
+  @include fontgloria;
+}
+.mobile-font-32-gloria-regular {
+  font-size: mvw(32px);
+  line-height: mvw(31px);
+  margin-bottom: 0;
+  @include fontgloria;
+}
+
+//permanet marker
+.mobile-font-16-permanet-400 {
+  font-size: mvw(16px);
+  line-height: mvw(19px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+
+.mobile-font-28-permanet-400 {
+  font-size: mvw(28px);
+  line-height: mvw(33px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+
+.mobile-font-32-permanet-400 {
+  font-size: mvw(32px);
+  line-height: mvw(38px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+
+.mobile-font-48-permanet-400 {
+  font-size: mvw(48px);
+  line-height: mvw(51px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+
+.mobile-font-54-permanet-400 {
+  font-size: mvw(54px);
+  line-height: mvw(64px);
+  margin-bottom: 0;
+  @include fontPermanentMarker;
+}
+//coda
+.mobile-font-12-coda-400 {
+  font-size: mvw(12px);
+  line-height: mvw(19px);
+  margin-bottom: 0;
+  @include fontCodaExtrabold;
+}
+
+.mobile-font-16-coda-400 {
+  font-size: mvw(16px);
+  line-height: mvw(19px);
+  margin-bottom: 0;
+  @include fontCodaExtrabold;
+}
+//pacifico
+.mobile-font-20-pacifico-400 {
+  font-size: mvw(20px);
+  line-height: mvw(22px);
+  margin-bottom: 0;
+  @include fontpacifico;
+}
+.mobile-font-26-pacifico-400 {
+  font-size: mvw(26px);
+  line-height: mvw(33px);
+  margin-bottom: 0;
+  @include fontpacifico;
+}
+.mobile-font-36-pacifico-400 {
+  font-size: mvw(36px);
+  line-height: mvw(43px);
+  margin-bottom: 0;
+  @include fontpacifico;
+}
+.mobile-font-42-pacifico-400 {
+  font-size: mvw(42px);
+  line-height: mvw(30px);
+  margin-bottom: 0;
+  @include fontpacifico;
+}
