@@ -339,16 +339,16 @@ export default function BlogDetailMain() {
           </h3>
           {remainingBlogs?.map((data, index) => (
             <article key={index} className="blog-details-side-blog-card">
-              <Link href="/blog-detail">
+              <Link href={`/blog-detail?data=${encodeURIComponent(data.name)}`}>
                 <a>
                   <figure>
-                    <img
-                      src={data.imgUrl}
-                      alt=""
-                    />
+                    <img src={data.imgUrl} alt="" />
                   </figure>
-                  <h4 style={{padding:"20px"}} className="font-24-proxima-nova-700 blog-detail-main-recommended-blog-colm__text1">
-                   {data.name}
+                  <h4
+                    style={{ padding: "20px" }}
+                    className="font-24-proxima-nova-700 blog-detail-main-recommended-blog-colm__text1"
+                  >
+                    {data.name}
                   </h4>
                 </a>
               </Link>
