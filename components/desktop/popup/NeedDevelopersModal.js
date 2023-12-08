@@ -45,10 +45,10 @@ export default function NeedDevelopersModal() {
 
     emailjs
       .send(
-        "service_tafkv2l",
-        "template_fx7s46l",
+        "service_vfh9t62",
+        "template_6he89m4",
         templateParams,
-        "I80JpURGh2nDuAf24"
+        "rn6rTO9GJylCZTjnm"
       )
       .then(
         (response) => {
