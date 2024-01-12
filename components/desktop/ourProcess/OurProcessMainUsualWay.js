@@ -17,14 +17,14 @@ export default function OurProcessMainUsualWay() {
         className=" row mx-0 justify-content-between our-process-usual-way-main-block-row"
       >
         <div className="col-6 our-process-usual-way-main-block-row__colm">
-          <h4 className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
+          <h4 style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
             {/* Asking your existing vendors? */}
             Experienced Engineers
             <sup className="our-process-fold-title-text-1 font-18-proxima-nova-700">
               1
             </sup>
           </h4>
-          <p className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
+          <p style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
             {/* Technologies change fast and your existing vendors may not have the
             resources to adapt to your demanding tech needs. */}
             We build your remote team with experienced engineers who have a
@@ -33,14 +33,14 @@ export default function OurProcessMainUsualWay() {
           </p>
         </div>
         <div className="col-6 our-process-usual-way-main-block-row__colm">
-          <h4 className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
+          <h4 style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
             {/* Searching Online? */}
             All Inclusive
             <sup className="our-process-fold-title-text-1 font-18-proxima-nova-700">
               {/* 2 */}3
             </sup>
           </h4>
-          <p className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
+          <p style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
             {/* If you found them, they must have solid SEO chops, but does that
             necessarily translate into equally solid tech chops? */}
             Our plans are all inclusive of local taxes settlements,
@@ -51,13 +51,13 @@ export default function OurProcessMainUsualWay() {
       </div>
       <div className="row mx-0 justify-content-between our-process-usual-way-main-block-row">
         <div className="col-6 our-process-usual-way-main-block-row__colm">
-          <h4 className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
+          <h4 style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
             {/* Using Refernces? */}Fully Managed
             <sup className="our-process-fold-title-text-1 font-18-proxima-nova-700">
               2
             </sup>
           </h4>
-          <p className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
+          <p style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
             {/* You’ve been relying on references and it’s better than the other
             options, but how fast and scalable is it? And if referral kickbacks
             are involved, can you be guaranteed of referrals based on pure
@@ -68,13 +68,13 @@ export default function OurProcessMainUsualWay() {
           </p>
         </div>
         <div className="col-6 our-process-usual-way-main-block-row__colm">
-          <h4 className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
+          <h4 style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-title font-36-poiret-one-400">
             {/* Hiring People? */}Transparency
             <sup className="our-process-fold-title-text-1 font-18-proxima-nova-700">
               4
             </sup>
           </h4>
-          <p className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
+          <p style={{padding:"10px"}} className="our-process-usual-way-main-block-row__colm-desc font-18-nunito-sans-400 relative">
             {/* Hiring new talent is tedious - setting up processes, training people
             and you might end up wasting months on just the hiring process that
             could have been spent shipping actual code. Not to mention the
