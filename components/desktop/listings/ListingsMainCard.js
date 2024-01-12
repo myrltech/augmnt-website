@@ -2,7 +2,7 @@ import React from "react";
 import ListingsMainCardTeams from "./ListingsMainCardTeams";
 import NeedToBeLoggedInModal from "./NeedToBeLoggedInModal";
 
-export default function ListingsMainCard() {
+export default function ListingsMainCard({ data }) {
   const renderViewDetailsButton = () => {
     return (
       <a
@@ -20,7 +20,8 @@ export default function ListingsMainCard() {
       <div className="row mx-0 justify-content-between listings-main-card__row1">
         <div className="col-12 col-md-8 listings-main-card__row1__colm1">
           <h2 className="font-18-nunito-sans-700 listings-main-card__row1__colm1__text1">
-            <span>3 UI/UX Designer required</span>{" "}
+            {/* <span>3 UI/UX Designer required</span>{" "} */}
+            <span>{data.title}</span>{" "}
             <img src="/imgs/desktop/icons/green-shield-icon.png" alt="" />
           </h2>
           <hr className="d-block d-md-none listings-card-hr" />
@@ -31,7 +32,7 @@ export default function ListingsMainCard() {
                 alt="location"
                 className="listings-main-card__row1__colm1-img2"
               />
-              Bangalore, India
+            {data.location}, India
             </p>
             <p className="font-12-nunito-sans-600">
               <img
@@ -39,7 +40,7 @@ export default function ListingsMainCard() {
                 alt="calendar"
                 className="listings-main-card__row1__colm1-img3"
               />
-              ESTD. 2016
+              ESTD. {data.estd}
             </p>
 
             <p className="font-12-nunito-sans-600">
@@ -48,7 +49,7 @@ export default function ListingsMainCard() {
                 alt="resources"
                 className="listings-main-card__row1__colm1-img4"
               />
-              12 Team Members
+              {data.members} Team Members
             </p>
           </div>
         </div>
@@ -57,7 +58,7 @@ export default function ListingsMainCard() {
             <span className="listings-main-card__row1__colm2-desc font-14-nunito-sans-600">
               Avg. Rate
             </span>
-            $18
+            ${data.amount}
             <span className="listings-main-card__row1__colm2-desc font-14-nunito-sans-600">
               / Hour / Resource
             </span>
@@ -71,10 +72,10 @@ export default function ListingsMainCard() {
         <div className="d-none d-md-block col-9">
           <h4 className="listings-main-card__teams-title">TEAMs AVAILABLE</h4>
           <div className="row mx-0 align-items-center listings-main-card__team-row">
-            <ListingsMainCardTeams title="NodeJS" count={3} />
-            <ListingsMainCardTeams title="ReactJS" count={2} />
-            <ListingsMainCardTeams title="NodeJS" count={4} />
-            <ListingsMainCardTeams title="ReactJS" count={2} />
+            <ListingsMainCardTeams title={data.lang} count={3} />
+            <ListingsMainCardTeams title={data.lang2} count={2} />
+            <ListingsMainCardTeams title={data.lang3} count={4} />
+            <ListingsMainCardTeams title={data.lang4} count={2} />
           </div>
         </div>
         <div className="d-none d-md-block col-3 listings-main-card__row2__colm1">

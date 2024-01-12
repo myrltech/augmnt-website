@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+// import NeedDevelopersModal from "../../desktop/popup/NeedDevelopersModal";
 
 /*==============================
          awardArray
@@ -122,10 +123,10 @@ export default function MobileHomeFoldOne() {
         <br /> top performing tech consultancies and agencies across
         <br /> the globe to augment your team for those cutting edge
         <br /> tech requirements. */}
-        CTOs and CIOs can use Augmnt, to “augment” their engineering teams
-with highly talented and experienced A.I. engineering experts.
-Find engineers from India that are great with A.I. tech stacks.
-We manage your resources for you !
+        CTOs and CIOs can use Augmnt, to “augment” their engineering teams with
+        highly talented and experienced A.I. engineering experts. Find engineers
+        from India that are great with A.I. tech stacks. We manage your
+        resources for you !
         {/* With AUGMNT, you can hire engineers that are already working at top tech
         agencies and consultancies. It’s <b> 100% </b>Free for SAAS companies.
         Just drop in your requirements and our partners will reach out to you. */}
@@ -145,6 +146,7 @@ We manage your resources for you !
           </div>
         </a>
       </div>
+      {/* <NeedDevelopersModal /> */}
       <div className="d-flex align-items-center justify-content-between flex-nowrap mobile-home-award-section">
         {awardArray.map((data, index) => (
           <Fragment key={index}>

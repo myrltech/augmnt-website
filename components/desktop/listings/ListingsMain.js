@@ -6,7 +6,120 @@ import "rc-pagination/assets/index.css";
 
 // pagination
 const totalRecordsInOnePage = 10;
-const dummyData = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+const dummyData = [
+  {
+    lang: "NodeJs",
+    lang2: "ReactJs",
+    lang3: "Go",
+    lang4: "Python",
+    amount: "60",
+    title:"2 ReactJs Developer required",
+    location:"Hyderabad",
+    estd:"2018",
+    members:"8",
+  },
+  {
+    lang: "Python",
+    lang2: "Rust",
+    lang3: "ReactJs",
+    lang4: "Go",
+    amount: "80",
+    title:"2 Python Developer required",
+    location:"Pune",
+    estd:"2017",
+    members:"12"
+  },
+  {
+    lang: "Javascript",
+    lang2: "ReactJs",
+    lang3: "NodeJs",
+    lang4: "Python",
+    amount: "70",
+    title:"2 Javascript Developer required",
+    location:"Mumbai",
+    estd:"2020",
+    members:"15"
+  },
+  {
+    lang: "Rust",
+    lang2: "Java",
+    lang3: "TypeScript",
+    lang4: "ReactJs",
+    amount: "80",
+    title:"2 Java Developer required",
+    location:"Bangalore",
+    estd:"2017",
+    members:"10"
+  },
+  {
+    lang: "Ruby",
+    lang2: "ReactJs",
+    lang3: "Swift",
+    lang4: "Kotlin",
+    amount: "50",
+    title:"2 Ruby Developer required",
+    location:"Bangalore",
+    estd:"2017",
+    members:"10"
+  },
+  {
+    lang: "HTML/CSS",
+    lang2: "ReactJs",
+    lang3: "NodeJs",
+    lang4: "Javascript",
+    amount: "90",
+    title:"2 Javascript Developer required",
+    location:"Pune",
+    estd:"2020",
+    members:"10"
+  },
+  {
+    lang: "Go",
+    lang2: "Javascript",
+    lang3: "Swift",
+    lang4: "Rust",
+    amount: "70",
+    title:"2 Rust Developer required",
+    location:"Hyderabad",
+    estd:"2021",
+    members:"5"
+  },
+  { lang: "Python", lang2: "Rust", lang3: "NodeJs", lang4: "Go", amount: "80" },
+  {
+    lang: "Rust",
+    lang2: "Javascript",
+    lang3: "NodeJs",
+    lang4: "Swift",
+    amount: "60",
+    title:"2 NodeJs Developer required",
+    location:"Hyderabad",
+    estd:"2022",
+    members:"7"
+  },
+  {
+    lang: "Go",
+    lang2: "Python",
+    lang3: "Javascript",
+    lang4: "ReactJs",
+    amount: "80",
+    title:"2 ReactJs Developer required",
+    location:"Mumbai",
+    estd:"2022",
+    members:"5"
+  },
+  {
+    lang: "NodeJs",
+    lang2: "ReactJs",
+    lang3: "Go",
+    lang4: "ReactJs",
+    amount: "70",
+    title:"2 ReactJs Developer required",
+    location:"Bangalore",
+    estd:"2015",
+    members:"20"
+  },
+  { lang: "Go", lang2: "Ruby", lang3: "Rust", lang4: "ReactJs", amount: "90",title:"2 Ruby Developer required" },
+];
 
 export default function ListingsMain() {
   const [currentPagination, setCurrentPagination] = useState(1);
@@ -43,7 +156,7 @@ export default function ListingsMain() {
               index >= (currentPagination - 1) * totalRecordsInOnePage &&
               index < currentPagination * totalRecordsInOnePage && (
                 <Fragment key={index}>
-                  <ListingsMainCard />
+                  <ListingsMainCard data={data} />
                 </Fragment>
               )
           )}

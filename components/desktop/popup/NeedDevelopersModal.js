@@ -176,7 +176,8 @@ export default function NeedDevelopersModal() {
             Need Developers?
           </h2>
           <p className="font-18-nunito-sans-400 pt-10 need-developer-para">
-            Posting requirements for developers on AUGMNT is 100% Free!.
+            {/* Posting requirements for developers on AUGMNT is 100% Free!. */}
+            We help you Augmnt your engineering team, let us know your requirements.
           </p>
           <p className="font-18-nunito-sans-400 pt-30 need-developer-para">
             Kindly share your details with us and our team will help you to find

@@ -15,8 +15,9 @@
 .blog-main-card-1__imgBlock {
   // width: vw(484px);
   // height: vw(636px);
-  width: vw(427px);
-  height: vw(485px);
+  width: vw(500px);
+  height: auto;
+  // height: vw(485px);
   padding: vw(35px) vw(31px);
   margin-right: vw(66px);
   border-radius: vw(24px);
@@ -93,8 +94,9 @@
   margin-bottom: vw(32px);
 }
 .blog-main-card-2__imgBlock {
-  width: vw(306px);
-  height: vw(362px);
+  width: vw(500px);
+  // height: vw(362px);
+  height: auto;
   margin-right: vw(37px);
   border-radius: vw(12px);
   text-align: center;
