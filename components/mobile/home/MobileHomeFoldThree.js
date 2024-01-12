@@ -14,10 +14,10 @@ const augmntArray = [
     iconPath: "/imgs/mobile/icons/star-hand-icon.svg",
     iconClass: "mobile-home-star-hand-icon",
     // title: "Rewarding",
-    title: "Effective",
+    title: "Efficient",
   },
   {
-    iconPath: "/imgs/mobile/icons/weight-icon.svg",
+    iconPath: "/imgs/mobile/icons/weight-icon2.svg",
     iconClass: "mobile-home-weight-icon",
     // title: "Ease of scaling",
     title: "Scale Easy",
@@ -25,7 +25,7 @@ const augmntArray = [
   {
     iconPath: "/imgs/mobile/icons/dollar-icon.svg",
     iconClass: "mobile-home-dollar-icon",
-    title: "Completely Free",
+    title: "Cost Effective",
   },
 ];
 

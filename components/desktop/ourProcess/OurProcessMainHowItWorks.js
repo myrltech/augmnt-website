@@ -10,7 +10,7 @@ export default function OurProcessMainHowItWorks() {
       <p className="font-18-nunito-sans-400 our-process-how-it-works-main__desc text-center">
         {/* Expand your tech team by leveraging resources available at vetted and
         verified tech agencies across the globe using this simple process. */}
-        Hire engineers already working at verified tech agencies. Fast
+        Build out your remote engineering team, reliably
       </p>
 
       <figure className="our-process-how-it-works-figure">
@@ -30,7 +30,7 @@ export default function OurProcessMainHowItWorks() {
           </h4>
           <p className="our-process-how-it-works-main__text3 font-18-nunito-sans-400">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
-            Sign up as a client, create your account with us.{" "}
+            Sign up as a client and let us know your requirements
           </p>
         </div>
 
@@ -39,11 +39,13 @@ export default function OurProcessMainHowItWorks() {
             02
           </h3>
           <h4 className="our-process-how-it-works-main__text2 font-18-nunito-sans-600">
-            Create &amp; Post Requirements
+            We Build out your team
           </h4>
           <p className="our-process-how-it-works-main__text3 font-18-nunito-sans-400">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
-            Post your requirements. mentioning budget and skills required.{" "}
+            We find engineers for your requirements from our existing set of
+            engineers or from our network or from our partner agencies and help
+            you build out a killer team.
           </p>
         </div>
 
@@ -52,11 +54,11 @@ export default function OurProcessMainHowItWorks() {
             04
           </h3>
           <h4 className="our-process-how-it-works-main__text2 font-18-nunito-sans-600">
-            Shortlist, Discuss and Finalise
+          Scale up or Scale down
           </h4>
           <p className="our-process-how-it-works-main__text3 font-18-nunito-sans-400">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
-            Find the right agencies for you and get started :D{" "}
+            Depending on your product requirements we make it super simple for you to scale up or scale down the number of engineers on your team.
           </p>
         </div>
 
@@ -65,11 +67,12 @@ export default function OurProcessMainHowItWorks() {
             03
           </h3>
           <h4 className="our-process-how-it-works-main__text2 font-18-nunito-sans-600">
-            Firms across the world reach you
+          We Manage your team
           </h4>
           <p className="our-process-how-it-works-main__text3 font-18-nunito-sans-400">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
-            Our tech agency partners reach out to you,{" "}
+            Managing team, replacing engineers, payments,
+local taxes, settlements everything is taken care of.
           </p>
         </div>
       </div>

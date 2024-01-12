@@ -4,18 +4,18 @@ import React, { Fragment } from "react";
 const howItWorksArray = [
   {
     // para: "Post your requirements for Product & Engineering Teams.",
-    para: "Post your requirements for Product & Engineering Teams with duration and budget.",
+    para: "Let us know your requirements for Engineering teams and technologies.",
     imgPath: "/imgs/desktop/home/how-does-it-work-1.svg",
     imgClass: "how-does-it-work-1",
   },
   {
-    para: "Top tech agencies from around the world reach out to you.",
+    para: "We shortlist the right engineers for your requirements from our large network.",
     // para: "Discover top resource augmentation firms across the world that match  your requirements.",
     imgPath: "/imgs/desktop/home/how-does-it-work-2.svg",
     imgClass: "how-does-it-work-2",
   },
   {
-    para: "Connect with the most competent agencies, hire engineers on short-term contract. And Build your product.",
+    para: "We build out your fully managed remote engineering team and we ensure you always have the right engineers working on your project.",
     // para: "Connect with the most competent team and build your product.",
     imgPath: "/imgs/desktop/home/how-does-it-work-3.svg",
     imgClass: "how-does-it-work-3",

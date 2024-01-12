@@ -17,8 +17,8 @@ export default function OurProcessMainFold1() {
         </h2>
         <h3 className="font-72-poiret-one-400">
           {" "}
-          <b className="font-72-proxima-nova-700">‘Augmnt’</b> is the fastest
-          way to augment your tech team.
+          <b className="font-72-proxima-nova-700">‘Augmnt’</b> is the most
+          reliable way to augment your tech team.
         </h3>
       </div>
       <div className="our-process-fold1-row__colm2">

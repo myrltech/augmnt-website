@@ -25,8 +25,10 @@ export default function MobileHomeFoldTwo() {
           is the fastest way to scale up your tech teams on super-short notice.
           <br />
           <br />
-          Great developers already work at our partner tech agencies and on many
-          occasions are un-utilized and available on bench.
+          {/* Great developers already work at our partner tech agencies and on many
+          occasions are un-utilized and available on bench. */}
+          Hire from our pre-existing network of great
+developers that are highly skilled. 
         </p>
       </div>
     );
@@ -57,8 +59,9 @@ export default function MobileHomeFoldTwo() {
         <p className="mobile-font-14-nunito-sans-400 mobile-home-tech-team-card-text3">
           {/* Great developers already work at our partner tech agencies and on many
           occasions are un-utilized and available on bench. */}
-          Get an added layer of responsibility and accountability when you work
-          with trusted agencies.
+          {/* Get an added layer of responsibility and accountability when you work
+          with trusted agencies. */}
+          This is why we recommend working with engineers through us, we manage your remote engineers, take care of billing, taxes and payments. 
         </p>
       </div>
     );
@@ -85,7 +88,9 @@ export default function MobileHomeFoldTwo() {
           {/* Just place a request for the desired number of developers.
           <br />
           And start working with available developers at top tech agencies. */}
-          Work with existing teams that already work great together.
+          This is why we recommend working with engineers
+through us, we manage your remote engineers, take care
+of billing, taxes and payments. 
         </p>
       </div>
     );
@@ -106,8 +111,9 @@ export default function MobileHomeFoldTwo() {
           how we can help you
         </h5>
         <p className="mobile-font-14-nunito-sans-400 mobile-home-tech-team-card-text3">
-          Our partner tech agencies will replace the talent that doesn’t meet
-          your expectations.{" "}
+          {/* Our partner tech agencies will replace the talent that doesn’t meet
+          your expectations.{" "} */}
+          We will replace engineers from your remote team that don’t match your expectations to ensure you always have the top talent.
         </p>
       </div>
     );

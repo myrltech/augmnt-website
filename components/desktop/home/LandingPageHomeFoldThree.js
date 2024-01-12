@@ -43,13 +43,18 @@ export default function LandingPageHomeFoldThree() {
             tech teams on super-short notice.
           </p>
           <p className="font-20-nunito-sans-400">
-            <span className="text-color-orange"> Great developers</span> already
+            Hire from our{" "}
+            <span className="font-20-nunito-sans-700 text-color-orange">
+              pre-existing network{" "}
+            </span>{" "}
+            of great <br /> developers that are highly skilled.
+            {/* <span className="text-color-orange"> Great developers</span> already
             work at our partner <br />
             tech agencies and on many occasions are
             <br /> <span className="text-color-orange">
               un-utilized
             </span> and <span className="text-color-orange">available</span> on
-            bench.
+            bench. */}
           </p>
           <img
             src={"/imgs/desktop/icons/orange-downword-arrow.svg"}
@@ -98,12 +103,21 @@ export default function LandingPageHomeFoldThree() {
               available
             </span>{" "}
             on bench. */}
-            Get an added{" "}
-            <span className="text-color-orange">
+            This is why we{" "}
+            <span className="font-20-nunito-sans-700 text-color-orange">
+              recommend
+            </span>{" "}
+            working with <br />{" "}
+            <span className="font-20-nunito-sans-700 text-color-orange">
+              engineers
+            </span>{" "}
+            through us, we manage your <br /> remote engineers, take care of
+            billing, taxes <br /> and payments. Get an added{" "}
+            {/* <span className="text-color-orange">
               {" "}
               layer of responsibility and <br /> accountability{" "}
             </span>
-            when you work with trusted <br /> agencies.
+            when you work with trusted <br /> agencies. */}
           </p>
           <img
             src={"/imgs/desktop/icons/orange-downword-left-arrow.svg"}
@@ -168,8 +182,20 @@ export default function LandingPageHomeFoldThree() {
               top tech
               <br /> agencies.{" "}
             </span> */}
-            Work with <span className="text-color-orange"> existing teams</span>{" "}
-            that already work great <br /> together.
+            {/* Work with <span className="text-color-orange"> existing teams</span>{" "}
+            that already work great <br /> together. */}
+            This is why we recommend working with engineers
+            <br />
+            through us,{" "}
+            <span className="font-20-nunito-sans-700 text-color-orange">
+              we manage{" "}
+            </span>{" "}
+            your remote engineers, take care
+            <br />
+            of{" "}
+            <span className="font-20-nunito-sans-700 text-color-orange">
+              billing, taxes and payments.{" "}
+            </span>
           </p>
           <img
             src={"/imgs/desktop/icons/orange-downword-arrow.svg"}
@@ -202,7 +228,16 @@ export default function LandingPageHomeFoldThree() {
             <br /> your culture.{" "}
           </h2>
           <p className="font-20-nunito-sans-400 pt-30 text-color-black-opacity-78">
-            Our
+            We will{" "}
+            <span className="font-20-nunito-sans-700 text-color-orange">
+              replace
+            </span>{" "}
+            engineers from your <br /> remote team that{" "}
+            <span className="font-20-nunito-sans-700 text-color-orange">
+              don’t match your <br /> expectations
+            </span>{" "}
+            to ensure you always have <br /> the top talent.
+            {/* Our
             <span className="font-20-nunito-sans-700 text-color-orange">
               {" "}
               partner
@@ -222,7 +257,7 @@ export default function LandingPageHomeFoldThree() {
             <span className="font-20-nunito-sans-700 text-color-orange">
               {" "}
               expectations.{" "}
-            </span>
+            </span> */}
           </p>
           <img
             src={"/imgs/desktop/icons/orange-downword-left-arrow.svg"}

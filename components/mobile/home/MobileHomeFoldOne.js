@@ -36,7 +36,7 @@ const techAgenciesArray = [
     iconClass: "mobile-green-shield-icon",
     // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     // para: "We've manually verified our 500+ Tech Agency partners and have onboarded only The Best Agencies.",
-    para: "We manually verify and onboard tech agency partners on our platform.",
+    para: "We build out your fully managed team in India with engineers with verified skillset.",
   },
   {
     title: "Vetted",
@@ -44,14 +44,14 @@ const techAgenciesArray = [
     iconClass: "mobile-orange-arrow-icon",
     // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     // para: "Only agencies with a consistent and proven track record make it to our platform.",
-    para: "Skilled engineers with years of real world experience work at our agency partner firms.",
+    para: "We have access to skilled engineers with years of real world experience, building scalable A.I. products.",
   },
   {
     title: "Trusted",
     icon: "imgs/mobile/icons/red-star-icon.png",
     iconClass: "mobile-red-star-icon",
     // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    para: "Our tech agency partners are deeply trusted by some of the largest enterprise firms and SAAS companies.",
+    para: "Our team of trusted A.I. engineering experts adds tremendous value to any team they join.",
   },
 ];
 
@@ -68,11 +68,12 @@ export default function MobileHomeFoldOne() {
           Find{" "}
           <span className="mobile-font-24-proxima-nova-900">
             {" "}
-            Tech Agencies{" "}
+            A.I. Engineers
           </span>
           <br />
           that are
         </h2>
+
         <div className="mobile-home-tech-agencies-content-section">
           {techAgenciesArray.map((data, index) => (
             <Fragment key={index}>
@@ -104,9 +105,11 @@ export default function MobileHomeFoldOne() {
     <>
       <h2 className="text-center">
         <img
-          src={"imgs/desktop/home/home-img.svg"}
+          src={"imgs/desktop/home/home-img2.svg"}
           // src="/imgs/mobile/home/home-title-text.svg"
-          alt="THE ULTIMATE SOLUTION FOR RESOURCE AUGMENTATION"
+          alt="HIRE A.I. ENGINEERS
+          TO BUILD OUT YOUR
+          A.I. PRODUCT"
           className="home-title-text"
         />
       </h2>
@@ -119,9 +122,13 @@ export default function MobileHomeFoldOne() {
         <br /> top performing tech consultancies and agencies across
         <br /> the globe to augment your team for those cutting edge
         <br /> tech requirements. */}
-        With AUGMNT, you can hire engineers that are already working at top tech
+        CTOs and CIOs can use Augmnt, to “augment” their engineering teams
+with highly talented and experienced A.I. engineering experts.
+Find engineers from India that are great with A.I. tech stacks.
+We manage your resources for you !
+        {/* With AUGMNT, you can hire engineers that are already working at top tech
         agencies and consultancies. It’s <b> 100% </b>Free for SAAS companies.
-        Just drop in your requirements and our partners will reach out to you.
+        Just drop in your requirements and our partners will reach out to you. */}
       </p>
       <div className="text-center">
         <a
@@ -134,7 +141,7 @@ export default function MobileHomeFoldOne() {
             <span>
               <i className="fa fa-plus" />
             </span>
-            Start A Project
+            I Need A.I. Engineers !
           </div>
         </a>
       </div>

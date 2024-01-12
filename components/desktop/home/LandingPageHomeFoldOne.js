@@ -31,7 +31,7 @@ export default function LandingPageHomeFoldOne() {
             Find
             <br />
             <span className="font-24-proxima-nova-900">
-              Tech Agencies <br />
+              A.I. Engineers <br />
             </span>{" "}
             that are
           </h3>
@@ -51,7 +51,8 @@ export default function LandingPageHomeFoldOne() {
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
             {/* We've manually verified our 500+ Tech Agency partners and have
             onboarded only The Best Agencies. */}
-            We manually verify and onboard tech agency partners on our platform.
+            We build out your fully managed team in India with engineers with
+            verified skillset.
           </p>
         </div>
         <div className="home-find-agencies-card--col-3">
@@ -69,8 +70,7 @@ export default function LandingPageHomeFoldOne() {
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
             {/* Only agencies with a consistent and proven track record make it to
             our platform. */}
-            Skilled engineers with years of real <br /> world experience work at
-            our agency partner firms.
+           We have access to skilled engineers with years of real world experience, building scalable A.I. products.
           </p>
         </div>
         <div className="home-find-agencies-card--col-4">
@@ -86,8 +86,7 @@ export default function LandingPageHomeFoldOne() {
           </h4>
           <p className="font-13-proxima-nova-400 pt-20 home-find-agencies-card--para relative">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
-            Our tech agency partners are deeply trusted by some of the largest
-            enterprise firms and SAAS companies.
+            Our team of trusted A.I. engineering experts adds tremendous value to any team they join.
           </p>
         </div>
       </div>
@@ -100,8 +99,10 @@ export default function LandingPageHomeFoldOne() {
           <h2>
             <img
               // src={"imgs/desktop/home/home-fold-one-text.svg"}
-              src={"imgs/desktop/home/home-img.svg"}
-              alt="THE ULTIMATE SOLUTION FOR RESOURCE AUGMENTATION"
+              src={"imgs/desktop/home/home-img2.svg"}
+              alt="HIRE A.I. ENGINEERS
+              TO BUILD OUT YOUR
+              A.I. PRODUCT"
               className="home-fold-one-text"
             />
           </h2>
@@ -114,11 +115,13 @@ export default function LandingPageHomeFoldOne() {
             agencies across the globe to augment your team for those cutting
             edge tech <br />
             requirements. */}
-            With AUGMNT, you can hire engineers that are already working at top
-            tech <br /> agencies and consultancies. It’s <b>100% Free</b> for
-            SAAS companies. <br />
-            Just drop in your requirements and our partners will reach out to
-            you.
+            CTOs and CIOs can use Augmnt, to “augment” their engineering teams
+            <br />
+            with highly talented and experienced A.I. engineering experts.
+            <br />
+            Find engineers from India that are great with A.I. tech stacks.
+            <br />
+            We manage your resources for you !
           </p>
         </div>
         <div className="home-fold-one-img-div">

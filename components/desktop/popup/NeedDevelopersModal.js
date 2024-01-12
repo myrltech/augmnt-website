@@ -156,7 +156,7 @@ export default function NeedDevelopersModal() {
         <span className="home-need-developer-btn-plus">
           <i className="fa fa-plus" />
         </span>
-        I Need Developers !
+        I Need A.I. Engineers !
       </button>
       <Modal
         open={open}
