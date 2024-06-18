@@ -31,7 +31,7 @@ export default function LandingPageHomeFoldOne() {
             Find
             <br />
             <span className="font-24-proxima-nova-900">
-              A.I. Engineers <br />
+              Experienced Engineers  <br />
             </span>{" "}
             that are
           </h3>
@@ -51,8 +51,7 @@ export default function LandingPageHomeFoldOne() {
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
             {/* We've manually verified our 500+ Tech Agency partners and have
             onboarded only The Best Agencies. */}
-            We build out your fully managed team in India with engineers with
-            verified skillset.
+           Our engineers have a verified skillset and they perform on the job from day one.
           </p>
         </div>
         <div className="home-find-agencies-card--col-3">
@@ -70,7 +69,7 @@ export default function LandingPageHomeFoldOne() {
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
             {/* Only agencies with a consistent and proven track record make it to
             our platform. */}
-           We have access to skilled engineers with years of real world experience, building scalable A.I. products.
+            Our engineers are carefully vetted using multiple third parties and are some of the best resources in the market.”
           </p>
         </div>
         <div className="home-find-agencies-card--col-4">
@@ -86,7 +85,7 @@ export default function LandingPageHomeFoldOne() {
           </h4>
           <p className="font-13-proxima-nova-400 pt-20 home-find-agencies-card--para relative">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, */}
-            Our team of trusted A.I. engineering experts adds tremendous value to any team they join.
+            We have been around for a few years and have a trusted network of engineers that don’t let us down.
           </p>
         </div>
       </div>
@@ -115,13 +114,13 @@ export default function LandingPageHomeFoldOne() {
             agencies across the globe to augment your team for those cutting
             edge tech <br />
             requirements. */}
-            CTOs and CIOs can use Augmnt, to “augment” their engineering teams
+            Augmnt is the biggest community of Tech Consultancies in India
             <br />
-            with highly talented and experienced A.I. engineering experts.
+            and is the best place to find high quality, remote engineers.
             <br />
-            Find engineers from India that are great with A.I. tech stacks.
+            Just share your requirements for resources needed
             <br />
-            We manage your resources for you !
+            engineering resources and hire them on contract.
           </p>
         </div>
         <div className="home-fold-one-img-div">

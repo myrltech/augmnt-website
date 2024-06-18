@@ -10,7 +10,7 @@ export default function OurProcessMainUsualWay() {
       <h3 className="font-48-poiret-one-400  our-process-usual-way-main-block__title relative">
         {/* The way <b className="font-48-proxima-nova-700">everyone</b> has been
         doing it? */}
-        We build out your fully managed team of experienced A.I. Engineers
+        We build out your fully managed team of experienced remote engineers
       </h3>
       <div
         style={{ marginTop: "70px" }}

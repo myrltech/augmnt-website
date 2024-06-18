@@ -84,7 +84,7 @@ export default function LandingPageHomeFoldFour() {
                                  techArrayFive         
 
       ===============================================================*/}
-      <div className="d-flex pt-50 flex-nowrap justify-content-between align-items-center">
+      {/* <div className="d-flex pt-50 flex-nowrap justify-content-between align-items-center">
         {techLogoArray5.map((data, index) => (
           <Fragment key={index}>
             <img
@@ -94,7 +94,7 @@ export default function LandingPageHomeFoldFour() {
             />
           </Fragment>
         ))}
-      </div>
+      </div> */}
       {/*==============================================================
        
                                  techArraySix         

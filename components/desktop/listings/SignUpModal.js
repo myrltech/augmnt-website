@@ -23,10 +23,37 @@ export default function SignUpModal() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { 
     e.preventDefault();
     console.log(values);
-    setOpen(false);
+   
+
+    
+    const templateParams = {
+      name: values.yourName,
+      email: values.email,
+      company: values.pNumber,
+      // technology: values.techonology,
+      from_name: values.yourName,
+    };
+
+    emailjs
+      .send(
+        "service_vfh9t62",
+        "template_6he89m4",
+        templateParams,
+        "rn6rTO9GJylCZTjnm"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setOpen(false);
+        },
+        (err) => {
+          console.log("FAILED...", err);
+          alert("Something went wrong");
+        }
+      );
   };
 
   /*=========================================================

@@ -203,7 +203,7 @@ export default function WebFooter({ activeMenu }) {
           <h2 className="font-36-proxima-nova-700 pt-10">
             the right Tech Agency?
           </h2>
-          <p className="font-14-nunito-sans-400 pt-15">
+          <p className="font-14-nunito-sans-400 pt-15 ">
             {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -213,7 +213,7 @@ export default function WebFooter({ activeMenu }) {
             <br /> tech agencies that have been verified and vetted by Augmnt
           </p>
           <Link href="/our-process">
-            <div className="web-footer-btn text-center">Learn More</div>
+            <div className="web-footer-btn text-center cursor-pointer">Learn More</div>
           </Link>{" "}
           <h5 className="text-right font-16-proxima-nova-700 web-footer-myrl-tech-text">
             <span>©</span> 2023 Myrl tech

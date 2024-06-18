@@ -18,7 +18,7 @@ export default function ListingsMainCard({ data }) {
   return (
     <div className="listings-main-card">
       <div className="row mx-0 justify-content-between listings-main-card__row1">
-        <div className="col-12 col-md-8 listings-main-card__row1__colm1">
+        <div className="col-12 col-md-6 listings-main-card__row1__colm1">
           <h2 className="font-18-nunito-sans-700 listings-main-card__row1__colm1__text1">
             {/* <span>3 UI/UX Designer required</span>{" "} */}
             <span>{data.title}</span>{" "}
@@ -32,7 +32,7 @@ export default function ListingsMainCard({ data }) {
                 alt="location"
                 className="listings-main-card__row1__colm1-img2"
               />
-            {data.location}, India
+            {data.location}, United States
             </p>
             <p className="font-12-nunito-sans-600">
               <img
@@ -53,10 +53,10 @@ export default function ListingsMainCard({ data }) {
             </p>
           </div>
         </div>
-        <div className="d-none d-md-block col-md-4 listings-main-card__row1__colm2">
+        <div className="d-none d-md-block col-md-6 listings-main-card__row1__colm2">
           <h3 className="listings-main-card__row1__colm2-title font-36-nunito-sans-800">
             <span className="listings-main-card__row1__colm2-desc font-14-nunito-sans-600">
-              Avg. Rate
+              Avg. Price
             </span>
             ${data.amount}
             <span className="listings-main-card__row1__colm2-desc font-14-nunito-sans-600">
@@ -70,7 +70,7 @@ export default function ListingsMainCard({ data }) {
       {/* display on desktop */}
       <div className="row mx-0 flex-nowrap justify-content-between align-items-center listings-main-card__row2">
         <div className="d-none d-md-block col-9">
-          <h4 className="listings-main-card__teams-title">TEAMs AVAILABLE</h4>
+          <h4 className="listings-main-card__teams-title">Resources Required</h4>
           <div className="row mx-0 align-items-center listings-main-card__team-row">
             <ListingsMainCardTeams title={data.lang} count={3} />
             <ListingsMainCardTeams title={data.lang2} count={2} />

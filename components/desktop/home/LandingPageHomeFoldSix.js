@@ -76,7 +76,7 @@ export default function LandingPageHomeFoldSix() {
       </div>
       <div className="text-center d-flex justify-content-center">
         <Link href="/our-process">
-          <div className="home-fold-six-btn">Learn More &#62;</div>
+          <div className="home-fold-six-btn cursor-pointer">Learn More &#62;</div>
         </Link>
       </div>
     </>

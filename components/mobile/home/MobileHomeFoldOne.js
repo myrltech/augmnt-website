@@ -37,7 +37,7 @@ const techAgenciesArray = [
     iconClass: "mobile-green-shield-icon",
     // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     // para: "We've manually verified our 500+ Tech Agency partners and have onboarded only The Best Agencies.",
-    para: "We build out your fully managed team in India with engineers with verified skillset.",
+    para: "Our engineers have a verified skillset and they perform on the job from day one.",
   },
   {
     title: "Vetted",
@@ -45,17 +45,17 @@ const techAgenciesArray = [
     iconClass: "mobile-orange-arrow-icon",
     // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
     // para: "Only agencies with a consistent and proven track record make it to our platform.",
-    para: "We have access to skilled engineers with years of real world experience, building scalable A.I. products.",
+    para: "Our engineers are carefully vetted using multiple third parties and are some of the best resources in the market.",
   },
   {
     title: "Trusted",
     icon: "imgs/mobile/icons/red-star-icon.png",
     iconClass: "mobile-red-star-icon",
     // para: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-    para: "Our team of trusted A.I. engineering experts adds tremendous value to any team they join.",
+    para: "We have been around for a few years and have a trusted network of engineers that don’t let us down.",
   },
 ];
-
+ 
 export default function MobileHomeFoldOne() {
   /*===================================================
 
@@ -69,7 +69,7 @@ export default function MobileHomeFoldOne() {
           Find{" "}
           <span className="mobile-font-24-proxima-nova-900">
             {" "}
-            A.I. Engineers
+            Experienced Engineers
           </span>
           <br />
           that are
@@ -123,10 +123,8 @@ export default function MobileHomeFoldOne() {
         <br /> top performing tech consultancies and agencies across
         <br /> the globe to augment your team for those cutting edge
         <br /> tech requirements. */}
-        CTOs and CIOs can use Augmnt, to “augment” their engineering teams with
-        highly talented and experienced A.I. engineering experts. Find engineers
-        from India that are great with A.I. tech stacks. We manage your
-        resources for you !
+        Augmnt is the biggest community of Tech Consultancies in India and is the best place to find high quality, remote engineers.
+        Just share your requirements for resources needed and we’ll help you handpick vetted engineering resources and hire them on contract.
         {/* With AUGMNT, you can hire engineers that are already working at top tech
         agencies and consultancies. It’s <b> 100% </b>Free for SAAS companies.
         Just drop in your requirements and our partners will reach out to you. */}
@@ -142,7 +140,7 @@ export default function MobileHomeFoldOne() {
             <span>
               <i className="fa fa-plus" />
             </span>
-            I Need A.I. Engineers !
+            Hire Top Engineers Now !
           </div>
         </a>
       </div>
