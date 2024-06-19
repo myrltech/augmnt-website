@@ -98,7 +98,8 @@ export default function LandingPageHomeFoldOne() {
           <h2>
             <img
               // src={"imgs/desktop/home/home-fold-one-text.svg"}
-              src={"imgs/desktop/home/home-img2.svg"}
+              // src={"imgs/desktop/home/home-img2.svg"}
+              src={"imgs/desktop/home/home-img.png"}
               alt="HIRE A.I. ENGINEERS
               TO BUILD OUT YOUR
               A.I. PRODUCT"

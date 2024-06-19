@@ -69,7 +69,8 @@ export default function MobileHomeFoldFive() {
             </h5>
             <span className="mobile-font-14-nunito-sans-400 mobile-home-existing-client-postion">
               {/* Founder, Myrl Tech */}
-              {founderCompany}
+              {/* {founderCompany} */}
+              Augmnt
             </span>
           </div>
         </div>

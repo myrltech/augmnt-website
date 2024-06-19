@@ -189,7 +189,7 @@ export default function BlogDetailMain() {
       <div className="d-flex align-items-center justify-content-between blog-detail-main-article-content__row1">
         <div className="d-flex align-items-center">
           <img
-            src="/imgs/desktop/blog/blog-author-img.svg"
+            src="/imgs/desktop/blog/blog-author-img2.jpeg"
             alt="author"
             className="blog-detail-main-article-content__row1__authorImg"
           />

@@ -106,7 +106,8 @@ export default function MobileHomeFoldOne() {
     <>
       <h2 className="text-center">
         <img
-          src={"imgs/desktop/home/home-img2.svg"}
+          src={"imgs/desktop/home/home-img-mobile.png"}
+          // src={"imgs/desktop/home/home-img2.svg"}
           // src="/imgs/mobile/home/home-title-text.svg"
           alt="HIRE A.I. ENGINEERS
           TO BUILD OUT YOUR

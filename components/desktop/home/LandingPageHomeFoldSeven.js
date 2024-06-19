@@ -50,7 +50,7 @@ export default function LandingPageHomeFoldSeven() {
                   Akhil Sharma
                 </h5>
                 <p className="font-14-nunito-sans-400 home-existing-client-card-client-position">
-                  Founder, Myrl Tech
+                  Augmnt
                 </p>
               </div>
             </div>

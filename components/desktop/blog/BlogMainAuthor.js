@@ -19,7 +19,7 @@ export default function BlogMainAuthor({ imgPath, authorName, authorPost }) {
 }
 
 BlogMainAuthor.defaultProps = {
-  imgPath: "/imgs/desktop/blog/blog-author-img.svg",
+  imgPath: "/imgs/desktop/blog/blog-author-img2.jpeg",
   authorName: "Akhil Sharma",
-  authorPost: "Founder, Myrl Tech",
+  authorPost: "Augmnt",
 };

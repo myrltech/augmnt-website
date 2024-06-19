@@ -1,7 +1,7 @@
 .home-title-text {
   width: mvw(317px);
   height: auto;
-  margin-left: mvw(60px);
+  // margin-left: mvw(60px);
   margin-top: mvw(87px);
 }
 .mobile-home-fold-para-text {
@@ -333,6 +333,7 @@
   width: mvw(26px);
   height: auto;
   margin-right: mvw(7px);
+  border-radius: 50%;
 }
 .mobile-home-blog-card-blog-name {
   color: $theme-text-black-87;

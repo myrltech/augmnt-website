@@ -30,7 +30,7 @@ export default function MobileHomeFoldFive() {
               Akhil Sharma
             </h5>
             <span className="mobile-font-14-nunito-sans-400 mobile-home-existing-client-postion">
-              Founder, Myrl Tech
+              Augmnt
             </span>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default function MobileHomeFoldFive() {
                     Akhil Sharma
                   </h5>
                   <span className="mobile-font-10-nunito-sans-400 mobile-home-blog-card-company-name">
-                    Founder, Myrl Tech
+                    Augmnt
                   </span>
                 </div>
               </div>

@@ -71,7 +71,7 @@ const MobileHomeFoldFiveSub = () => {
                 <div className="d-flex align-items-center justify-content-between flex-nowrap">
                   <div className="d-flex align-items-start flex-nowrap">
                     <img
-                      src="/imgs/mobile/home/existing-client-img-1.svg"
+                      src="/imgs/desktop/blog/blog-author-img2.jpeg" 
                       alt="existing client"
                       className="mobile-home-blog-profile-img-1"
                     />
@@ -80,7 +80,7 @@ const MobileHomeFoldFiveSub = () => {
                         Akhil Sharma
                       </h5>
                       <span className="mobile-font-10-nunito-sans-400 mobile-home-blog-card-company-name">
-                        Founder, Myrl Tech
+                         Augmnt
                       </span>
                     </div>
                   </div>

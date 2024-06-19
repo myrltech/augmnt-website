@@ -54,7 +54,7 @@ export default function MobileBlogMain() {
             <div className="d-flex justify-content-between align-items-center m-blog-main-card__row">
               <p className="m-blog-main-card__row__text1">
                 <img
-                  src="/imgs/desktop/blog/blog-author-img.svg"
+                  src="/imgs/desktop/blog/blog-author-img2.jpeg"
                   alt="author"
                 />
                 Akhil Sharma
