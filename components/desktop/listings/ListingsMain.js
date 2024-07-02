@@ -24,7 +24,7 @@ const dummyData = [
     lang3: "devops",
     lang4: "flutter",
     amount: "80",
-    title:"2 Python Developer required",
+    title:"3 Python Developer required",
     location:"Los Angeles",
     estd:"2017",
     members:"12"
@@ -35,7 +35,7 @@ const dummyData = [
     lang3: "Perl",
     lang4: "PHP",
     amount: "70",
-    title:"2 Javascript Developer required",
+    title:"4 Javascript Developer required",
     location:"Chicago",
     estd:"2020",
     members:"15"
@@ -46,7 +46,7 @@ const dummyData = [
     lang3: "Kotlin",
     lang4: "SQL",
     amount: "80",
-    title:"2 Java Developer required",
+    title:"7 Java Developer required",
     location:"Houston",
     estd:"2017",
     members:"10"
@@ -57,7 +57,7 @@ const dummyData = [
     lang3: "C#",
     lang4: "C++",
     amount: "50",
-    title:"2 Ruby Developer required",
+    title:"1 Ruby Developer required",
     location:"San Antonio",
     estd:"2017",
     members:"10"
@@ -68,7 +68,7 @@ const dummyData = [
     lang3: "Haskell",
     lang4: "Scala",
     amount: "90",
-    title:"2 Javascript Developer required",
+    title:"5 Javascript Developer required",
     location:"San Jose",
     estd:"2020",
     members:"10"
@@ -79,7 +79,7 @@ const dummyData = [
     lang3: "Dart",
     lang4: "Forth",
     amount: "70",
-    title:"2 Rust Developer required",
+    title:"3 Rust Developer required",
     location:"San Jose",
     estd:"2021",
     members:"5"
@@ -91,7 +91,7 @@ const dummyData = [
     lang3: "NodeJs",
     lang4: "Swift",
     amount: "60",
-    title:"2 NodeJs Developer required",
+    title:"6 NodeJs Developer required",
     location:"Seattle",
     estd:"2022",
     members:"7"
@@ -102,7 +102,7 @@ const dummyData = [
     lang3: "Javascript",
     lang4: "ReactJs",
     amount: "80",
-    title:"2 ReactJs Developer required",
+    title:"3 ReactJs Developer required",
     location:"Boston",
     estd:"2022",
     members:"5"
@@ -113,7 +113,7 @@ const dummyData = [
     lang3: "Go",
     lang4: "ReactJs",
     amount: "70",
-    title:"2 ReactJs Developer required",
+    title:"6 ReactJs Developer required",
     location:"Detroit",
     estd:"2015",
     members:"20"

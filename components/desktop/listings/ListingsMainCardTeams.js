@@ -6,7 +6,7 @@ export default function ListingsMainCardTeams({ title, count }) {
       <h5 className="listings-main-card__teams-text1">{title}</h5>
       <div className="d-flex align-items-center listings-main-card__team-member-block">
         <img
-          src="/imgs/desktop/listings/dummy-teams-member-1.png"
+          src="/imgs/desktop/profile/dummy-teams-member-1.png"
           alt="member"
         />
         <img
